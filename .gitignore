@@ -1,0 +1,30 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+db.json
+package-lock.json
+.joplin-blog.json
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.joplin-cache.json
+*.epub
+dist/
+
+# idea
+.idea
+*.iml
+
+# vscode
+.vscode
+test/
+.history
+.temp/

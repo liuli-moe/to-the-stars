@@ -8,7 +8,7 @@
 
 原作 <https://tts.determinismsucks.net/wiki/Main_Page>
 
-来自多为作者接力翻译
+来自多位作者接力翻译
 
 - [LidaRyen](https://www.yamibo.com/novel/206113)
 - [风若兮未](https://space.bilibili.com/47184018)

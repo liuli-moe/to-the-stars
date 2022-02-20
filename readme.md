@@ -23,5 +23,6 @@
 ## 维护
 
 1. 安装 nodejs
-2. `pnpm i` 安装依赖
-3. `pnpm release` 生成 epub 文件
+2. 安装 pandoc 并且添加到环境变量 <https://pandoc.org/>
+3. `pnpm i` 安装依赖
+4. `pnpm release` 生成 epub 文件

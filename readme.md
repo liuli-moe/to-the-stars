@@ -8,7 +8,7 @@
 
 原作 <https://tts.determinismsucks.net/wiki/Main_Page>
 
-来自多为作者接力翻译
+来自多位作者接力翻译
 
 - [LidaRyen](https://www.yamibo.com/novel/206113)
 - [风若兮未](https://space.bilibili.com/47184018)
@@ -20,9 +20,18 @@
 
 “丘比承诺说人类总有一天也能到达那遥远的星空。但它们很明智地没有说出来，人类将会在那里遇到什么。”—— 引言
 
+目录
+
+- 量子纠缠
+- 宇宙膨胀
+- 存在悖论（目前原作者刚写完这一卷）
+- 爱因斯坦-罗森桥
+- 暗能量
+- 奇点
+
 ## 维护
 
-1. 安装 nodejs
+1. 安装 nodejs <https://nodejs.org/>
 2. 安装 pandoc 并且添加到环境变量 <https://pandoc.org/>
 3. `pnpm i` 安装依赖
 4. `pnpm release` 生成 epub 文件

@@ -3,32 +3,13 @@ import { mkdirp, readdir, remove, stat } from 'fs-extra'
 import * as path from 'path'
 import { execPromise } from './util/execPromise'
 
-/**
- * 生成 pandoc 生成命令
- * @param title
- * @param dir
- * @returns
- */
-async function genCmd(title: string, dir: string) {
-  const list = (await readdir(dir))
-    .sort((a, b) => a.localeCompare(b))
-    .filter((name) => name.endsWith('.md') && name !== 'readme.md')
-  // console.log('list: ', list)
-  return `pandoc -o ../../dist/${title} readme.md ${list.join(' ')}`
-}
-
-/**
- * 处理每一卷
- */
-async function handleSection(cwd: string) {
-  const cmd = await genCmd(path.basename(cwd) + '.epub', cwd)
-  await execPromise(cmd, { cwd })
-}
-
-async function main() {
+async function clean() {
   const distPath = path.resolve(__dirname, '../dist')
   await remove(distPath)
   await mkdirp(distPath)
+}
+
+async function build() {
   const booksPath = path.resolve(__dirname, '../books')
   const list = await AsyncArray.filter(
     await readdir(booksPath),
@@ -37,8 +18,16 @@ async function main() {
     },
   )
   for (const name of list) {
-    await handleSection(path.resolve(booksPath, name))
+    console.log(`构建 [${name}]`)
+    await execPromise('npx mdbook build -o ../../dist', {
+      cwd: path.resolve(booksPath, name),
+    })
   }
+}
+
+async function main() {
+  await clean()
+  await build()
 }
 
 main()

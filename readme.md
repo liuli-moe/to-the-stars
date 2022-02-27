@@ -2,17 +2,15 @@
 
 ## 项目简介
 
-> wiki: <https://tts.determinismsucks.net/wiki/Main_Page>
+> 原作 wiki: <https://tts.determinismsucks.net/wiki/Main_Page>
 
 该项目主要是将目前几位作者的翻译打包为 epub 以便在手机和电子阅读器上阅读，同时避免国内网站删除、下架或不再维护网站而创建存档。
 
-原作 <https://tts.determinismsucks.net/wiki/Main_Page>
-
 来自多位作者接力翻译
 
-- [LidaRyen](https://www.yamibo.com/novel/206113)
-- [风若兮未](https://space.bilibili.com/47184018)
-- [baccano999](https://space.bilibili.com/11781867)
+- [LidaRyen](https://www.yamibo.com/novel/206113): 翻译了第 1、2 卷全部和第 3 卷部分章节
+- [风若兮未](https://space.bilibili.com/47184018): 将上面的翻译搬运至 b 站，避免了百合会改版之后由于最长 1w 字而且删除文章格式导致的一些错误（另外，b 站也有和谐）
+- [baccano999](https://space.bilibili.com/11781867): 翻译了第 3 卷的后半部分
 
 ## 作品简介
 
@@ -24,7 +22,7 @@
 
 - 量子纠缠
 - 宇宙膨胀
-- 存在悖论（目前原作者刚写完这一卷）
+- 存在悖论（至今原作者写完了这一卷）
 - 爱因斯坦-罗森桥
 - 暗能量
 - 奇点

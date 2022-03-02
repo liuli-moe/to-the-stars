@@ -4,6 +4,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "docs-setup": "esno .vuepress/init.ts",
+    "docs-dev": "vuepress dev",
+    "docs-build": "vuepress build",
     "build": "esno src/main.ts",
     "postinstall": "npx simple-git-hooks"
   },
@@ -25,7 +28,8 @@
     "prettier": "^2.3.2",
     "simple-git-hooks": "^2.5.1",
     "ts-jest": "^27.0.7",
-    "typescript": "^4.5.5"
+    "typescript": "^4.5.5",
+    "vuepress-vite": "^2.0.0-beta.36"
   },
   "sync": [
     "prettier",
@@ -36,9 +40,6 @@
     "testMatch": [
       "<rootDir>/src/**/__tests__/*.test.ts"
     ]
-  },
-  "dependencies": {
-    "mime-types": "^2.1.34"
   },
   "description": "",
   "prettier": "@liuli-util/prettier-standard-config",

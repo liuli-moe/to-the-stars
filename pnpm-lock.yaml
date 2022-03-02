@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@liuli-util/async': ^3.3.0
+  '@liuli-util/mdbook': ^0.1.1
   '@liuli-util/prettier-standard-config': ^0.1.0
   '@types/fs-extra': ^9.0.13
   '@types/jest': ^27.4.0
@@ -22,6 +23,7 @@ dependencies:
 
 devDependencies:
   '@liuli-util/async': 3.3.0
+  '@liuli-util/mdbook': 0.1.1
   '@liuli-util/prettier-standard-config': 0.1.0
   '@types/fs-extra': 9.0.13
   '@types/jest': 27.4.0
@@ -593,6 +595,11 @@ packages:
 
   /@liuli-util/async/3.3.0:
     resolution: {integrity: sha512-rLnup3kjZmLiOy7Vk1Nn5is6t+AWwNH5HufPlGMJ8zGNSptsOEoTC98hDagd2Ef3Jxmrh5Jv6XNAkk4asgLyjQ==}
+    dev: true
+
+  /@liuli-util/mdbook/0.1.1:
+    resolution: {integrity: sha512-yQzAwyvpeLeBcyFFHCA9DLf5EPKfysbmDWRvJFTJBPoCA4lZqbaFlLlz4V1nTUHlpTvNpPKgJ46/oyOM5MKEhg==}
+    hasBin: true
     dev: true
 
   /@liuli-util/object/3.3.0:

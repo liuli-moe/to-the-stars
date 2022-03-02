@@ -6,15 +6,22 @@
   "scripts": {
     "docs-setup": "esno .vuepress/init.ts",
     "docs-dev": "vuepress dev",
-    "docs-build": "vuepress build",
+    "docs-build": "pnpm docs-setup && vuepress build",
+    "docs-deploy": "pnpm docs-build && liuli-cli deploy",
     "build": "esno src/main.ts",
     "postinstall": "npx simple-git-hooks"
+  },
+  "deploy": {
+    "type": "gh-pages",
+    "dist": ".vuepress/dist",
+    "dest": "/"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@liuli-util/async": "^3.3.0",
+    "@liuli-util/cli": "^3.19.1",
     "@liuli-util/mdbook": "^0.1.1",
     "@liuli-util/prettier-standard-config": "^0.1.0",
     "@types/fs-extra": "^9.0.13",

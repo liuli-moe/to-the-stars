@@ -46,3 +46,7 @@
 3. `pnpm i` 安装依赖
 4. `pnpm release` 生成 epub 文件
 5. `pnpm docs-deploy` 发布网站
+
+注意
+
+目前仅修正拼写错误，翻译问题无力解决，希望有大佬帮忙重新校对一下。

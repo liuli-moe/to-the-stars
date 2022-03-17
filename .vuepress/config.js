@@ -19,4 +19,5 @@ module.exports = {
     ],
     sidebar: data.sidebar,
   },
+  plugins: [['@vuepress/plugin-google-analytics', { id: 'G-F20H7RT1RM' }]],
 }

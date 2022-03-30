@@ -13,9 +13,9 @@ async function main() {
     { from: '03', to: '第三卷-存在悖论' },
     { from: '99', to: '番外' },
   ]
-  for (const name of names) {
-    await copy(path.resolve(src, name.from), path.resolve(dist, name.to))
-  }
+  // for (const name of names) {
+  //   await copy(path.resolve(src, name.from), path.resolve(dist, name.to))
+  // }
   const sidebar = await AsyncArray.reduce(
     names,
     async (res, item) => {

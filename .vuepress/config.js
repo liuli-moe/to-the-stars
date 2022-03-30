@@ -19,6 +19,8 @@ module.exports = {
     ],
     sidebar: data.sidebar,
     repo: 'https://github.com/liuli-moe/TtS',
+    docsBranch: 'master',
+    editLinkText: '在 GitHub 上编辑此页',
   },
   plugins: [['@vuepress/plugin-google-analytics', { id: 'G-F20H7RT1RM' }]],
 }

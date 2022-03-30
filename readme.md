@@ -44,7 +44,7 @@
 1. 安装 nodejs <https://nodejs.org/>
 2. 安装 pandoc 并且添加到环境变量 <https://pandoc.org/>
 3. `pnpm i` 安装依赖
-4. `pnpm release` 生成 epub 文件
+4. `pnpm build` 生成 epub 文件
 5. `pnpm docs-deploy` 发布网站
 
 注意

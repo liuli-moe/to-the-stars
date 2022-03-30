@@ -14,13 +14,15 @@ module.exports = {
       ...data.navbar,
       {
         text: 'GitHub',
-        link: 'https://github.com/liuli-moe/TtS',
+        link: 'https://github.com/liuli-moe/to-the-stars',
       },
     ],
     sidebar: data.sidebar,
-    repo: 'https://github.com/liuli-moe/TtS',
+    repo: 'https://github.com/liuli-moe/to-the-stars',
     docsBranch: 'master',
     editLinkText: '在 GitHub 上编辑此页',
+    lastUpdatedText: '上次更新',
+    contributorsText: '贡献者',
   },
   plugins: [['@vuepress/plugin-google-analytics', { id: 'G-F20H7RT1RM' }]],
 }

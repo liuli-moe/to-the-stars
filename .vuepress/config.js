@@ -18,6 +18,7 @@ module.exports = {
       },
     ],
     sidebar: data.sidebar,
+    repo: 'https://github.com/liuli-moe/TtS',
   },
   plugins: [['@vuepress/plugin-google-analytics', { id: 'G-F20H7RT1RM' }]],
 }

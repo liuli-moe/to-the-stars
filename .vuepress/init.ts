@@ -8,10 +8,10 @@ async function main() {
   await remove(dist)
   await mkdirp(dist)
   const names = [
-    { from: '第一卷-量子纠缠', to: '01' },
-    { from: '第二卷-宇宙膨胀', to: '02' },
-    { from: '第三卷-存在悖论', to: '03' },
-    { from: '番外', to: '00' },
+    { from: '01', to: '第一卷-量子纠缠' },
+    { from: '02', to: '第二卷-宇宙膨胀' },
+    { from: '03', to: '第三卷-存在悖论' },
+    { from: '99', to: '番外' },
   ]
   for (const name of names) {
     await copy(path.resolve(src, name.from), path.resolve(dist, name.to))
@@ -19,11 +19,11 @@ async function main() {
   const sidebar = await AsyncArray.reduce(
     names,
     async (res, item) => {
-      const sections = (await readdir(path.resolve(dist, item.to))).filter(
+      const sections = (await readdir(path.resolve(src, item.from))).filter(
         (name) => name.endsWith('.md') && name !== 'readme.md',
       )
-      res[`/dist/${item.to}/`] = ['readme.md', ...sections].map(
-        (section) => `/dist/${item.to}/${section}`,
+      res[`/books/${item.from}/`] = ['readme.md', ...sections].map(
+        (section) => `/books/${item.from}/${section}`,
       )
       return res
     },
@@ -35,8 +35,8 @@ async function main() {
     path.resolve(__dirname, '.temp/data.json'),
     {
       navbar: names.map((item) => ({
-        text: item.from,
-        link: `/dist/${item.to}/`,
+        text: item.to,
+        link: `/books/${item.from}/`,
       })),
       sidebar: sidebar,
     },

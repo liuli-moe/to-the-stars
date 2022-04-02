@@ -10,14 +10,7 @@ module.exports = {
   // 主题和它的配置
   theme: '@vuepress/theme-default',
   themeConfig: {
-    navbar: [
-      ...data.navbar,
-      {
-        text: 'GitHub',
-        link: 'https://github.com/liuli-moe/to-the-stars',
-      },
-    ],
-    sidebar: data.sidebar,
+    ...data,
     repo: 'https://github.com/liuli-moe/to-the-stars',
     docsBranch: 'master',
     editLinkText: '在 GitHub 上编辑此页',

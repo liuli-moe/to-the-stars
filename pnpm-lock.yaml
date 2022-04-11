@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@liuli-util/async': ^3.3.0
-  '@liuli-util/cli': ^3.19.2
+  '@liuli-util/cli': ^3.21.0
   '@liuli-util/mdbook': ^0.1.1
   '@liuli-util/prettier-standard-config': ^0.1.0
   '@types/fs-extra': ^9.0.13
@@ -23,7 +23,7 @@ specifiers:
 
 devDependencies:
   '@liuli-util/async': 3.3.0
-  '@liuli-util/cli': 3.19.2_typescript@4.5.5
+  '@liuli-util/cli': 3.21.0_typescript@4.5.5
   '@liuli-util/mdbook': 0.1.1
   '@liuli-util/prettier-standard-config': 0.1.0
   '@types/fs-extra': 9.0.13
@@ -652,8 +652,8 @@ packages:
     resolution: {integrity: sha512-rLnup3kjZmLiOy7Vk1Nn5is6t+AWwNH5HufPlGMJ8zGNSptsOEoTC98hDagd2Ef3Jxmrh5Jv6XNAkk4asgLyjQ==}
     dev: true
 
-  /@liuli-util/cli/3.19.2_typescript@4.5.5:
-    resolution: {integrity: sha512-QbIPek1Z92aybJxorqDLfYvR8c5NHfQ8ecP+ipIH7YR5raS4b9NoWVJs13EBCqty6i+r7i4qw4Ka++qG+I0dHg==}
+  /@liuli-util/cli/3.21.0_typescript@4.5.5:
+    resolution: {integrity: sha512-gl0HZIdnBVA09dMMJF5HYWCuLdFoGKIYMoh4Nrotbl3FFtAbHGIQ1X7SoN4PHOFP+uPt5yW1IgRNZu5PH/7uMQ==}
     hasBin: true
     dependencies:
       '@liuli-util/commitlint-standard-config': 0.1.6

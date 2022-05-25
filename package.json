@@ -52,7 +52,7 @@
   "description": "",
   "prettier": "@liuli-util/prettier-standard-config",
   "simple-git-hooks": {
-    "pre-commit": "yarn lint-staged"
+    "pre-commit": "pnpm lint-staged"
   },
   "lint-staged": {
     "*.{ts,tsx,js,jsx,css,vue}": [

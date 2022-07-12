@@ -8,8 +8,7 @@
     "docs-dev": "vuepress dev",
     "docs-build": "pnpm docs-setup && vuepress build && rimraf .vuepress/dist/books/",
     "docs-deploy": "pnpm docs-build && liuli-cli deploy",
-    "build": "esno src/main.ts",
-    "postinstall": "npx simple-git-hooks"
+    "build": "esno src/main.ts"
   },
   "deploy": {
     "type": "gh-pages",
@@ -31,33 +30,15 @@
     "fs-extra": "^10.0.0",
     "jest": "^27.4.3",
     "joplin-api": "^0.3.3",
-    "lint-staged": "^11.1.1",
-    "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
-    "simple-git-hooks": "^2.5.1",
     "ts-jest": "^27.0.7",
     "typescript": "^4.5.5",
     "vuepress-vite": "^2.0.0-beta.36"
   },
-  "sync": [
-    "prettier",
-    "simplehooks"
-  ],
   "jest": {
     "preset": "ts-jest",
     "testMatch": [
       "<rootDir>/src/**/__tests__/*.test.ts"
-    ]
-  },
-  "description": "",
-  "prettier": "@liuli-util/prettier-standard-config",
-  "simple-git-hooks": {
-    "pre-commit": "pnpm lint-staged"
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js,jsx,css,vue}": [
-      "prettier --write",
-      "git add"
     ]
   }
 }

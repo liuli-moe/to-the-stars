@@ -1,0 +1,6 @@
+{
+  // 禁用行长度限制
+  "line-length": false,
+  // 禁用行级别的粗体警告
+  "no-emphasis-as-heading": false
+}

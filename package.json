@@ -40,5 +40,8 @@
     "testMatch": [
       "<rootDir>/src/**/__tests__/*.test.ts"
     ]
+  },
+  "dependencies": {
+    "chinese-numbering": "^1.0.0"
   }
 }

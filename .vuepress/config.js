@@ -18,4 +18,7 @@ module.exports = {
     contributorsText: '贡献者',
   },
   plugins: [['@vuepress/plugin-google-analytics', { id: 'G-F20H7RT1RM' }]],
+  markdown: {
+    breaks: true,
+  },
 }

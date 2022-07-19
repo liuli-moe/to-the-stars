@@ -61,7 +61,7 @@ export default defineUserConfig({
     {
       name: 'clearStrongAfterSpace',
       extendsMarkdown(md, _app) {
-        md.use(clearStrongAfterSpace(['，', '？', '！']))
+        md.use(clearStrongAfterSpace(['，', '。', '？', '！']))
       },
     } as Plugin & Hooks,
   ],

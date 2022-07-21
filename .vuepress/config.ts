@@ -2,8 +2,7 @@ import { defineUserConfig, Plugin } from 'vuepress-vite'
 import MarkdownIt from 'markdown-it'
 import Token from 'markdown-it/lib/token'
 import { Hooks } from 'vuepress-vite'
-
-const data = require('./.temp/data.json')
+import data from './.temp/data.json'
 
 /**
  * 清理粗体之后的空格
@@ -58,6 +57,7 @@ export default defineUserConfig({
   },
   plugins: [
     ['@vuepress/plugin-google-analytics', { id: 'G-F20H7RT1RM' }],
+    ['vuepress-plugin-sitemap2', { hostname: 'https://tts.liuli.moe' }],
     {
       name: 'clearStrongAfterSpace',
       extendsMarkdown(md, _app) {

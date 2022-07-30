@@ -1,8 +1,11 @@
 import { defineUserConfig, Plugin } from 'vuepress-vite'
+import defaultTheme from '@vuepress/theme-default'
 import MarkdownIt from 'markdown-it'
 import Token from 'markdown-it/lib/token'
 import { Hooks } from 'vuepress-vite'
 import data from './.temp/data.json'
+import analytics from '@vuepress/plugin-google-analytics'
+import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 
 /**
  * 清理粗体之后的空格
@@ -46,18 +49,17 @@ export default defineUserConfig({
     '在经历了几个世纪的动荡之后，一个乌托邦式的 AI— 人类政府治理着地球，预示着后稀缺社会的来临和太空殖民的新时代。一次意外的接触却让科技更先进的敌对外星种族打破了和平，这迫使魔法少女们走出幕后，拯救人类文明。在这一切之中，志筑良子，一个普通的女孩，仰望着星空，好奇着她在宇宙中的归所。',
 
   // 主题和它的配置
-  theme: '@vuepress/theme-default',
-  themeConfig: {
+  theme: defaultTheme({
     ...data,
     repo: 'https://github.com/liuli-moe/to-the-stars',
     docsBranch: 'master',
     editLinkText: '在 GitHub 上编辑此页',
     lastUpdatedText: '上次更新',
     contributorsText: '贡献者',
-  },
+  }),
   plugins: [
-    ['@vuepress/plugin-google-analytics', { id: 'G-F20H7RT1RM' }],
-    ['vuepress-plugin-sitemap2', { hostname: 'https://tts.liuli.moe' }],
+    analytics({ ga: 'G-F20H7RT1RM' }) as Plugin,
+    (sitemapPlugin as any)({ hostname: 'https://tts.liuli.moe' }) as Plugin,
     {
       name: 'clearStrongAfterSpace',
       extendsMarkdown(md, _app) {

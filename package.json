@@ -30,6 +30,7 @@
     "fs-extra": "^10.0.0",
     "jest": "^27.4.3",
     "joplin-api": "^0.3.3",
+    "jszip": "^3.10.0",
     "rimraf": "^3.0.2",
     "ts-jest": "^27.0.7",
     "typescript": "^4.5.5",
@@ -43,6 +44,7 @@
   },
   "dependencies": {
     "chinese-numbering": "^1.0.0",
+    "fast-glob": "^3.2.11",
     "vuepress-plugin-sitemap2": "2.0.0-beta.24"
   }
 }

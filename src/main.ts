@@ -1,12 +1,28 @@
 import { AsyncArray } from '@liuli-util/async'
-import { mkdirp, readdir, remove, stat } from 'fs-extra'
+import FastGlob from 'fast-glob'
+import { mkdirp, readdir, readFile, remove, stat, writeFile } from 'fs-extra'
 import * as path from 'path'
 import { execPromise } from './util/execPromise'
+import JSZip from 'jszip'
 
 async function clean() {
   const distPath = path.resolve(__dirname, '../dist')
   await remove(distPath)
   await mkdirp(distPath)
+}
+
+async function bundle() {
+  console.log('打包 zip 文件')
+  const distPath = path.resolve(__dirname, '../dist')
+  const list = await FastGlob('*.epub', { cwd: distPath })
+  const zip = new JSZip()
+  await AsyncArray.forEach(list, async (name) => {
+    zip.file(name, await readFile(path.resolve(distPath, name)))
+  })
+  await writeFile(
+    path.resolve(distPath, 'books.zip'),
+    await zip.generateAsync({ type: 'nodebuffer' }),
+  )
 }
 
 async function build() {
@@ -35,6 +51,7 @@ async function build() {
 async function main() {
   await clean()
   await build()
+  await bundle()
 }
 
 main()

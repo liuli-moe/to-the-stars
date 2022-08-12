@@ -2,8 +2,9 @@ import { AsyncArray } from '@liuli-util/async'
 import FastGlob from 'fast-glob'
 import { mkdirp, readdir, readFile, remove, stat, writeFile } from 'fs-extra'
 import * as path from 'path'
-import { execPromise } from './util/execPromise'
 import JSZip from 'jszip'
+import matter from 'gray-matter'
+import { BookConfig, MarkdownBookBuilder } from '@liuli-util/mdbook'
 
 async function clean() {
   const distPath = path.resolve(__dirname, '../dist')
@@ -40,11 +41,16 @@ async function build() {
     '04': '第四卷-爱因斯坦-罗森桥',
     '99': '番外',
   }
+  const builder = new MarkdownBookBuilder()
+  const distPath = path.resolve(__dirname, '../dist')
   for (const name of list) {
     console.log(`构建 [${map[name]}]`)
-    await execPromise('npx mdbook build -o ../../dist', {
-      cwd: path.resolve(booksPath, name),
-    })
+    const entryPoint = path.resolve(booksPath, name, 'readme.md')
+    const title = (matter(await readFile(entryPoint)).data as BookConfig).title
+    await writeFile(
+      path.resolve(distPath, title + '.epub'),
+      await builder.generate(entryPoint),
+    )
   }
 }
 

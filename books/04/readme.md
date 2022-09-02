@@ -7,7 +7,8 @@ date: 2022-07-21
 language: zh-CN
 cover: './assets/cover.png'
 sections:
-  - 064-幕间-3-昭昭天命.md
+  - 064-幕间-3-昭昭天命-上.md
+  - 064-幕间-3-昭昭天命-中.md
 ---
 
 虫洞（英语：wormhole），又称 爱因斯坦-罗森桥（英语： Einstein—Rosen bridge ），是宇宙中可能存在的连接两个不同时空的狭窄隧道。

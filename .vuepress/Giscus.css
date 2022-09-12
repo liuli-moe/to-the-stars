@@ -1,0 +1,14 @@
+.giscus {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 2rem 2.5rem;
+  padding-top: 1rem;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 419px) {
+  .giscus {
+    padding: 1.5rem;
+  }
+}

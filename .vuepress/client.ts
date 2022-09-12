@@ -1,10 +1,6 @@
 import { defineClientConfig } from '@vuepress/client'
-import Giscus from './Giscus'
+import { ClientGiscus } from './Giscus'
 
 export default defineClientConfig({
-  enhance({ app, router, siteData }) {
-  },
-  setup() {},
-  layouts: {},
-  rootComponents: [Giscus],
+  rootComponents: [ClientGiscus],
 })

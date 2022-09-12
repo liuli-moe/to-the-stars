@@ -1,4 +1,4 @@
-import { useRouteLocale } from '@vuepress/client'
+import { ClientOnly, useRouteLocale } from '@vuepress/client'
 import {
   computed,
   defineComponent,
@@ -112,7 +112,7 @@ const langMap = {
   ro: 'ro',
 }
 
-export default defineComponent({
+const Giscus = defineComponent({
   name: 'Giscus',
 
   props: {
@@ -226,5 +226,11 @@ export default defineComponent({
           }),
         ],
       )
+  },
+})
+
+export const ClientGiscus = defineComponent({
+  setup() {
+    return () => h(ClientOnly, null, () => h(Giscus))
   },
 })

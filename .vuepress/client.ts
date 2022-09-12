@@ -1,6 +1,8 @@
 import { defineClientConfig } from '@vuepress/client'
-import { ClientGiscus } from './Giscus'
+import Layout from './layouts/Layout.vue'
 
 export default defineClientConfig({
-  rootComponents: [ClientGiscus],
+  layouts: {
+    Layout,
+  },
 })

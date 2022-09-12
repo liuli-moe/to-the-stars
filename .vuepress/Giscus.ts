@@ -6,7 +6,6 @@ import {
   onBeforeUnmount,
   onMounted,
   ref,
-  Teleport,
   watch,
 } from 'vue'
 import type { VNode } from 'vue'
@@ -112,7 +111,7 @@ const langMap = {
   ro: 'ro',
 }
 
-const Giscus = defineComponent({
+export const Giscus = defineComponent({
   name: 'Giscus',
 
   props: {
@@ -215,22 +214,8 @@ const Giscus = defineComponent({
     })
 
     return (): VNode =>
-      h(
-        Teleport,
-        {
-          to: 'main',
-        },
-        [
-          h('div', {
-            class: 'giscus',
-          }),
-        ],
-      )
-  },
-})
-
-export const ClientGiscus = defineComponent({
-  setup() {
-    return () => h(ClientOnly, null, () => h(Giscus))
+      h('div', {
+        class: 'giscus',
+      })
   },
 })

@@ -1,4 +1,4 @@
-import { ClientOnly, useRouteLocale } from '@vuepress/client'
+import { useRouteLocale } from '@vuepress/client'
 import {
   computed,
   defineComponent,
@@ -10,87 +10,13 @@ import {
 } from 'vue'
 import type { VNode } from 'vue'
 import './Giscus.css'
+import { GiscusOptions } from '../shared'
 
-export interface GiscusOptions {
-  /**
-   * The name of repository to store discussions.
-   */
-  repo: string
-
-  /**
-   * The ID of repository to store discussions.
-   */
-  repoId: string
-
-  /**
-   * The name of the discussion category.
-   */
-  category: string
-
-  /**
-   * The ID of the discussion category.
-   */
-  categoryId: string
-
-  /**
-   * Page - discussion mapping.
-   *
-   * @default "pathname"
-   */
-  mapping?: string
-
-  /**
-   * Enable reactions or not?
-   *
-   * @default true
-   */
-  reactionsEnabled?: boolean
-
-  /**
-   * Theme of Giscus component.
-   *
-   * @default "light"
-   */
-  theme?: string
-
-  /**
-   * Language of Giscus component. "auto" for following site's language (
-   * would fell to "en" if your site's language is not supported by Giscus)
-   *
-   * @default auto
-   */
-  lang?: string
-
-  /**
-   * Load the comments lazily. Loading of the comments will be deferred
-   * until the user scrolls near the comments container.
-   *
-   * @default false
-   */
-  lazyLoad?: boolean
-
-  /**
-   * Crossorigin.
-   *
-   * @default "anonymous"
-   */
-  crossorigin?: string
-}
-
-const options: GiscusOptions = {
-  repo: 'liuli-moe/to-the-stars', // required, string, format: user_name/repo_name
-  repoId: 'R_kgDOG4H10w', // required, string, generate it on Giscus's website
-  category: 'General', // required, string
-  categoryId: 'DIC_kwDOG4H1084CQhBn', // required, string, generate it on Giscus's website
-  mapping: 'pathname', // optional, string, default="title"
-  reactionsEnabled: true, // optional, boolean, default=true
-  theme: 'preferred_color_scheme', // optional, string, default="light"
-  lang: 'zh-CN', // optional, string, default="auto" (follow the site's language, fell to "en" if your site's language is not supported by Giscus)
-  lazyLoad: true,
-}
+declare const __GISCUS_OPTIONS__: GiscusOptions
+const options: GiscusOptions = __GISCUS_OPTIONS__
 
 const siteLocales = {}
-const siteLang = 'zh-cn'
+const siteLang = options.lang
 
 const langMap = {
   'en-us': 'en',

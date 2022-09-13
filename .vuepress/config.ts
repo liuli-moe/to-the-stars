@@ -5,7 +5,7 @@ import { Hooks } from 'vuepress-vite'
 import data from './.temp/data.json'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
-import { giscusPlugin } from 'vuepress-plugin-giscus'
+import { giscusPlugin } from './plugins/vuepress-plugin-giscus'
 
 /**
  * 清理粗体之后的空格
@@ -66,16 +66,17 @@ export default defineUserConfig({
         md.use(clearStrongAfterSpace(['，', '。', '？', '！']))
       },
     } as Plugin & Hooks,
-    // giscusPlugin({
-    //   repo: 'liuli-moe/to-the-stars', // required, string, format: user_name/repo_name
-    //   repoId: 'R_kgDOG4H10w', // required, string, generate it on Giscus's website
-    //   category: 'General', // required, string
-    //   categoryId: 'DIC_kwDOG4H1084CQhBn', // required, string, generate it on Giscus's website
-    //   mapping: 'pathname', // optional, string, default="title"
-    //   reactionsEnabled: true, // optional, boolean, default=true
-    //   theme: 'preferred_color_scheme', // optional, string, default="light"
-    //   lang: 'zh-CN', // optional, string, default="auto" (follow the site's language, fell to "en" if your site's language is not supported by Giscus)
-    // }) as Plugin,
+    giscusPlugin({
+      repo: 'liuli-moe/to-the-stars', // required, string, format: user_name/repo_name
+      repoId: 'R_kgDOG4H10w', // required, string, generate it on Giscus's website
+      category: 'General', // required, string
+      categoryId: 'DIC_kwDOG4H1084CQhBn', // required, string, generate it on Giscus's website
+      mapping: 'pathname', // optional, string, default="title"
+      reactionsEnabled: true, // optional, boolean, default=true
+      theme: 'preferred_color_scheme', // optional, string, default="light"
+      lang: 'zh-CN', // optional, string, default="auto" (follow the site's language, fell to "en" if your site's language is not supported by Giscus)
+      lazyLoad: true,
+    }),
   ],
   markdown: {
     breaks: true,

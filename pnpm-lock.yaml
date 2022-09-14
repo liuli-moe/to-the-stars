@@ -12,6 +12,8 @@ specifiers:
   '@types/node': ^18.7.16
   '@vuepress/client': 2.0.0-beta.51
   '@vuepress/plugin-google-analytics': 2.0.0-beta.51
+  '@vuepress/theme-default': 2.0.0-beta.51
+  '@vuepress/utils': 2.0.0-beta.51
   chinese-numbering: ^1.0.0
   fast-glob: ^3.2.12
   fs-extra: ^10.1.0
@@ -40,6 +42,8 @@ devDependencies:
   '@types/node': 18.7.16
   '@vuepress/client': 2.0.0-beta.51
   '@vuepress/plugin-google-analytics': 2.0.0-beta.51
+  '@vuepress/theme-default': 2.0.0-beta.51
+  '@vuepress/utils': 2.0.0-beta.51
   chinese-numbering: 1.0.0
   fast-glob: 3.2.12
   fs-extra: 10.1.0

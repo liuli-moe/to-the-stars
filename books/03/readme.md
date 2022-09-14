@@ -5,7 +5,7 @@ rights: CC BY-NC-SA
 description: 丘比承诺说人类总有一天也能到达那遥远的星空。但它们很明智地没有说出来，人类将会在那里遇到什么。
 date: 2022-02-20
 language: zh-CN
-cover: './assets/cover.png'
+cover: ./assets/cover.png
 sections:
   - 033-幕间-2-小玛德莱娜.md
   - 034-第三十四章-造就我们的那些羁绊.md

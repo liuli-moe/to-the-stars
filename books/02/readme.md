@@ -4,7 +4,7 @@ author: Hieronym
 rights: CC BY-NC-SA
 description: 丘比承诺说人类总有一天也能到达那遥远的星空。但它们很明智地没有说出来，人类将会在那里遇到什么。
 language: zh-CN
-cover: './assets/cover.png'
+cover: ./assets/cover.png
 sections:
   - 017-幕间-1-无间迷梦.md
   - 018-第十八章-落地.md

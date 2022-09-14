@@ -19,6 +19,7 @@
   "devDependencies": {
     "@liuli-util/async": "^3.4.0",
     "@liuli-util/cli": "^3.21.0",
+    "@liuli-util/markdown-util": "^0.2.2",
     "@liuli-util/mdbook": "^0.2.3",
     "@liuli-util/prettier-standard-config": "^0.3.0",
     "@types/fs-extra": "^9.0.13",

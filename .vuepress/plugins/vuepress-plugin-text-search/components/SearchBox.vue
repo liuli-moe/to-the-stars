@@ -60,7 +60,7 @@ import { useSiteData } from '@vuepress/client'
 import { useRouter } from 'vue-router'
 import * as asyncUtils from '@liuli-util/async'
 
-const { debounce } = asyncUtils
+const { debounce, switchMap } = asyncUtils
 
 // see https://vuepress.vuejs.org/plugin/option-api.html#clientdynamicmodules
 // import hooks from "@dynamic/hooks";
@@ -94,9 +94,12 @@ onMounted(() => {
   })
 })
 
-const onSearch = debounce(async (ev: InputEvent) => {
-  await getSuggestions((ev.target as HTMLInputElement).value)
-}, 500)
+const onSearch = debounce(
+  switchMap(async (ev: InputEvent) => {
+    await getSuggestions((ev.target as HTMLInputElement).value)
+  }),
+  500,
+)
 
 const router = useRouter()
 const showSuggestions = computed(() => {

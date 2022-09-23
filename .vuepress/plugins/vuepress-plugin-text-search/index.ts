@@ -26,14 +26,14 @@ export function textSearch(options: {}): PluginObject {
       const list = app.pages.filter((item) => item.contentRendered && item.path.startsWith('/books'))
       console.log('index start', list.length)
       list.forEach((item) => {
-        console.log('index: ', item.title)
+        console.debug('index: ', item.title)
         indexer.add(item)
       })
       console.log('index end', list.length)
+      const publicDir = app.dir.public()
       const data = indexer.toJson()
-      const tempPath = path.resolve(__dirname, '.temp')
-      await mkdirp(tempPath)
-      await writeJson(path.resolve(tempPath, 'data.json'), data)
+      await writeJson(path.resolve(publicDir, 'local-search.json'), data)
+      console.log('index write')
     },
   }
 }

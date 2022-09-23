@@ -1,5 +1,8 @@
 import { chain } from 'lodash-es'
 import type { Page } from 'vuepress-vite'
+import * as asyncUtils from '@liuli-util/async'
+
+const { once } = asyncUtils
 
 type SectionMap = Record<number, Pick<Page, 'path' | 'title'>>
 type ContentMap = Record<number, { id: number; sectionId: number; content: string }>
@@ -27,6 +30,8 @@ function filterContent(
     .value()
 }
 
+const getJson = once(async () => await (await fetch('/local-search.json')).json())
+
 export async function search(query: string): Promise<
   {
     contents: {
@@ -38,12 +43,6 @@ export async function search(query: string): Promise<
     title: string
   }[]
 > {
-  if (__VUEPRESS_DEV__) {
-    const data = await import('../.temp/data.json')
-    return filterContent(data as any, query)
-  }
-
-  const resp = await fetch(`https://tts-search.liuli.moe/?query=${encodeURIComponent(query)}`)
-  const r = await resp.json()
-  return r
+  const data = await getJson()
+  return filterContent(data as any, query)
 }

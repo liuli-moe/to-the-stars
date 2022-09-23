@@ -17,6 +17,7 @@ package-lock.json
 .joplin-cache.json
 *.epub
 dist/
+local-search.json
 
 # idea
 .idea

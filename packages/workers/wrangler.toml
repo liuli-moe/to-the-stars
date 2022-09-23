@@ -1,6 +1,0 @@
-name = "to-the-stars"
-main = "src/index.ts"
-compatibility_date = "2022-09-23"
-kv_namespaces = [
-    { binding = "tts", id = "354be985765e444c87ea9bb80f1fead2" }
-]

@@ -8,6 +8,6 @@ export function giscusPlugin(options: GiscusOptions): PluginObject {
     define() {
       return { __GISCUS_OPTIONS__: options }
     },
-    clientConfigFile: path.resolve(__dirname, '../client'),
+    // clientConfigFile: path.resolve(__dirname, '../client'),
   }
 }

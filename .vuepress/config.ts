@@ -4,7 +4,7 @@ import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 import { giscusPlugin } from './plugins/vuepress-plugin-giscus'
 import { clearStrongAfterSpace } from './plugins/vuepress-plugin-clear-strong-after-space'
-import { flexSearch } from './plugins/vuepress-plugin-flexsearch'
+import { textSearch } from './plugins/vuepress-plugin-text-search'
 
 export default defineUserConfig({
   // 站点配置
@@ -40,7 +40,7 @@ export default defineUserConfig({
       lang: 'zh-CN', // optional, string, default="auto" (follow the site's language, fell to "en" if your site's language is not supported by Giscus)
       lazyLoad: true,
     }),
-    flexSearch(),
+    textSearch({}),
   ],
   markdown: {
     breaks: true,

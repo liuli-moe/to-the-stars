@@ -24,6 +24,7 @@
     "@liuli-util/prettier-standard-config": "^0.3.0",
     "@types/fs-extra": "^9.0.13",
     "@types/jest": "^29.0.1",
+    "@types/lodash-es": "^4.17.6",
     "@types/markdown-it": "^12.2.3",
     "@types/node": "^18.7.16",
     "@vuepress/client": "2.0.0-beta.51",
@@ -32,12 +33,17 @@
     "@vuepress/utils": "2.0.0-beta.51",
     "chinese-numbering": "^1.0.0",
     "fast-glob": "^3.2.12",
+    "flexsearch": "^0.7.21",
     "fs-extra": "^10.1.0",
     "gray-matter": "^4.0.3",
     "jest": "^29.0.3",
+    "jieba-wasm": "^0.0.2",
     "joplin-api": "^0.4.2",
     "jszip": "^3.10.1",
+    "lodash-es": "^4.17.21",
     "markdown-it": "^13.0.1",
+    "node-html-parser": "^6.1.0",
+    "nodejieba": "^2.6.0",
     "rimraf": "^3.0.2",
     "ts-jest": "^29.0.0",
     "tsx": "^3.9.0",
@@ -51,5 +57,8 @@
     "testMatch": [
       "<rootDir>/src/**/__tests__/*.test.ts"
     ]
+  },
+  "dependencies": {
+    "@types/flexsearch": "^0.7.3"
   }
 }

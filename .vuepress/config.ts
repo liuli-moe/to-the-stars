@@ -1,10 +1,10 @@
-import { defineUserConfig, defaultTheme, Plugin } from 'vuepress-vite'
-import { Hooks } from 'vuepress-vite'
+import { defineUserConfig, defaultTheme } from 'vuepress-vite'
 import data from './.temp/data.json'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 import { giscusPlugin } from './plugins/vuepress-plugin-giscus'
 import { clearStrongAfterSpace } from './plugins/vuepress-plugin-clear-strong-after-space'
+import { flexSearch } from './plugins/vuepress-plugin-flexsearch'
 
 export default defineUserConfig({
   // 站点配置
@@ -40,6 +40,7 @@ export default defineUserConfig({
       lang: 'zh-CN', // optional, string, default="auto" (follow the site's language, fell to "en" if your site's language is not supported by Giscus)
       lazyLoad: true,
     }),
+    flexSearch(),
   ],
   markdown: {
     breaks: true,

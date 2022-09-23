@@ -26,7 +26,7 @@
           @click.prevent
           @mousedown="go(s)"
           @mouseenter="focus(s)"
-          :class="{ focused: s.id === contents[focusIndex].id }"
+          :class="{ focused: s.id === contents[focusIndex]?.id }"
           :data-suggestion="s.id"
         >
           <div class="suggestion-row">
@@ -156,7 +156,7 @@ function onUp() {
   } else {
     focusIndex.value = contents.value.length - 1
   }
-  const s = `[data-suggestion="${contents.value[focusIndex.value].id}"]`
+  const s = `[data-suggestion="${contents.value[focusIndex.value]?.id}"]`
   const el = document.querySelector(s)
   console.log('onUp', s, el)
   el?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -170,7 +170,7 @@ function onDown() {
   } else {
     focusIndex.value = 0
   }
-  const s = `[data-suggestion="${contents.value[focusIndex.value].id}"]`
+  const s = `[data-suggestion="${contents.value[focusIndex.value]?.id}"]`
   const el = document.querySelector(s)
   console.log('onDown', s, el)
   el?.scrollIntoView({ behavior: 'smooth', block: 'end' })

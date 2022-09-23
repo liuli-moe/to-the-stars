@@ -7,7 +7,8 @@
     "docs-dev": "vuepress dev",
     "docs-build": "pnpm docs-setup && vuepress build && rimraf .vuepress/dist/books/",
     "docs-deploy": "pnpm docs-build && liuli-cli deploy",
-    "build": "tsx src/main.ts"
+    "build": "tsx src/main.ts",
+    "upload": "wrangler kv:key put --namespace-id=354be985765e444c87ea9bb80f1fead2 \"data\" --path=./.vuepress/plugins/vuepress-plugin-text-search/.temp/data.json"
   },
   "deploy": {
     "type": "gh-pages",
@@ -55,15 +56,14 @@
     "vue": "^3.2.39",
     "vue-router": "^4.1.5",
     "vuepress-plugin-sitemap2": "2.0.0-beta.97",
-    "vuepress-vite": "2.0.0-beta.51"
+    "@types/flexsearch": "^0.7.3",
+    "vuepress-vite": "2.0.0-beta.51",
+    "wrangler": "2.1.6"
   },
   "jest": {
     "preset": "ts-jest",
     "testMatch": [
       "<rootDir>/src/**/__tests__/*.test.ts"
     ]
-  },
-  "dependencies": {
-    "@types/flexsearch": "^0.7.3"
   }
 }

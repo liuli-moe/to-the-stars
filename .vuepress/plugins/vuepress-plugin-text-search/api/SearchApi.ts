@@ -38,10 +38,9 @@ export async function search(query: string): Promise<
     title: string
   }[]
 > {
-  // @ts-expect-error
   if (__VUEPRESS_DEV__) {
     const data = await import('../.temp/data.json')
-    return filterContent(data, query)
+    return filterContent(data as any, query)
   }
 
   const resp = await fetch(`https://tts-search.liuli.moe/?query=${encodeURIComponent(query)}`)

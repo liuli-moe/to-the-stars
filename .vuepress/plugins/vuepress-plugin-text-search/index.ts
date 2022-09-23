@@ -23,7 +23,7 @@ export function textSearch(options: {}): PluginObject {
       )
     },
     async onInitialized(app) {
-      const list = app.pages.filter((item) => item.contentRendered)
+      const list = app.pages.filter((item) => item.contentRendered && item.path.startsWith('/books'))
       console.log('index start', list.length)
       list.forEach((item) => {
         console.log('index: ', item.title)

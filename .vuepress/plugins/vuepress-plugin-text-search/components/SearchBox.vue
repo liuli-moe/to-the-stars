@@ -8,7 +8,7 @@
       :placeholder="placeholder"
       autocomplete="off"
       spellcheck="false"
-      @input="query = $event.target.value"
+      @input="onSearch"
       @focus="focused = true"
       @blur="focused = false"
       @keyup.enter="go(focusIndex)"
@@ -47,203 +47,164 @@
   </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import IconSearch from './IconSearch.vue'
 import SearchCommand from './SearchCommand.vue'
 import SearchRouteScroll from './SearchRouteScroll.vue'
-import highlightWords from 'highlight-words'
+import highlightWords, { HighlightWords } from 'highlight-words'
 import { search } from '../api/SearchApi'
-import { defineComponent } from 'vue'
+import { computed, onMounted, onUnmounted, reactive, ref, watch } from 'vue'
+import { useSiteData } from '@vuepress/client'
+import { useRouter } from 'vue-router'
+import { debounce } from '@liuli-util/async'
 
 // see https://vuepress.vuejs.org/plugin/option-api.html#clientdynamicmodules
 // import hooks from "@dynamic/hooks";
 
-const hooks = {
-  processSuggestions: false,
-}
+const suggestions = ref<
+  {
+    title: string
+    contents: {
+      id: number
+      path: string
+      title: string
+      parentPageTitle: string
+      slug: string
+      contentStr: string
+      content: HighlightWords.Chunk[]
+    }[]
+  }[]
+>([])
 
-/* global SEARCH_MAX_SUGGESTIONS, SEARCH_PATHS, SEARCH_HOTKEYS */
-export default defineComponent({
-  name: 'SearchBox',
-  data() {
-    return {
-      query: '',
-      focused: false,
-      focusIndex: 0,
-      suggestions: null,
-    }
-  },
-  components: {
-    IconSearch,
-    SearchCommand,
-    SearchRouteScroll,
-  },
-  computed: {
-    queryTerms() {
-      if (!this.query) return []
-      const result = [
-        { path: '/books/01/', slug: '' },
-        { path: '/books/01/', slug: '' },
-      ]
-      return result
-    },
-    showSuggestions() {
-      return true
-      return this.focused && this.suggestions && this.suggestions.length
-    },
+const query = ref('')
+const focused = ref(false)
+const focusIndex = ref(0)
 
-    // make suggestions align right when there are not enough items
-    alignRight() {
-      const navCount = (this.$site.themeConfig?.nav || []).length
-      const repo = this.$site.repo ? 1 : 0
-      return navCount + repo <= 2
-    },
-    placeholder() {
-      return this.$localeConfig?.searchPlaceholder || this.$site.themeConfig?.searchPlaceholder || 'Search'
-    },
-  },
-  watch: {
-    query() {
-      this.getSuggestions()
-    },
-    $localePath() {},
-  },
-  /* global OPTIONS */
-  mounted() {
-    // set query from URL
-    this.getSuggestions()
-    const params = this.urlParams()
-    if (params) {
-      const query = params.get('query')
-      if (query) {
-        this.query = decodeURI(query)
-        this.focused = true
-      }
-    }
-  },
-  beforeDestroy() {
-    document.removeEventListener('keydown', this.onHotkey)
-  },
-  methods: {
-    async getSuggestions() {
-      if (!this.query) {
-        this.suggestions = []
-        return
-      }
-      const list = await search(this.query)
-      this.suggestions = list.flatMap((item) => ({
-        title: item.title,
-        contents: item.contents.map((c) => ({
-          id: c.id,
-          path: item.path,
-          title: item.title,
-          parentPageTitle: item.title,
-          slug: `?searchId=${c.id}&keyword=${this.query}`,
-          contentStr: c.content,
-          content: highlightWords({ text: c.content, query: this.query }),
-        })),
-      }))
-      console.log('suggestions', this.query, this.suggestions)
-    },
-    getPageLocalePath(page) {
-      for (const localePath in this.$site.locales || {}) {
-        if (localePath !== '/' && page.path.indexOf(localePath) === 0) {
-          return localePath
-        }
-      }
-      return '/'
-    },
-    isSearchable(page) {
-      let searchPaths = SEARCH_PATHS
-      // all paths searchables
-      if (searchPaths === null) {
-        return true
-      }
-      searchPaths = Array.isArray(searchPaths) ? searchPaths : new Array(searchPaths)
-      return (
-        searchPaths.filter((path) => {
-          return page.path.match(path)
-        }).length > 0
-      )
-    },
-    onHotkey(event) {
-      if (event.srcElement === document.body && SEARCH_HOTKEYS.includes(event.key)) {
-        this.$refs.input.focus()
-        event.preventDefault()
-      }
-    },
-    onUp() {
-      if (this.showSuggestions) {
-        if (this.focusIndex > 0) {
-          this.focusIndex--
-        } else {
-          this.focusIndex = this.suggestions.length - 1
-        }
-      }
-    },
-    onDown() {
-      if (this.showSuggestions) {
-        if (this.focusIndex < this.suggestions.length - 1) {
-          this.focusIndex++
-        } else {
-          this.focusIndex = 0
-        }
-      }
-    },
-    go(s) {
-      if (!this.showSuggestions) {
-        return
-      }
-      if (s.external) {
-        window.open(s.path + s.slug, '_blank')
-      } else {
-        this.$router.push(s.path + s.slug)
-        this.query = ''
-        this.focusIndex = 0
-        this.focused = false
-
-        // reset query param
-        const params = this.urlParams()
-        if (params) {
-          params.delete('query')
-          const paramsString = params.toString()
-          const newState = window.location.pathname + (paramsString ? `?${paramsString}` : '')
-          history.pushState(null, '', newState)
-        }
-      }
-    },
-    focus(i) {
-      this.focusIndex = i
-    },
-    unfocus() {
-      this.focusIndex = -1
-    },
-    urlParams() {
-      if (!window.location.search) {
-        return null
-      }
-      return new URLSearchParams(window.location.search)
-    },
-    expandSearchInput() {
-      this.$refs.input.focus()
-      this.focused = true
-    },
-  },
+onMounted(() => {
+  router.afterEach(() => {
+    query.value = ''
+    suggestions.value = []
+    focused.value = false
+    focusIndex.value = 0
+  })
 })
 
-function highlight(str, strHighlight) {
-  if (!str) return {}
-  if (!strHighlight) return { prefix: str }
-  const [start, length] = strHighlight
-  const end = start + length
+const onSearch = debounce(async (ev: InputEvent) => {
+  await getSuggestions((ev.target as HTMLInputElement).value)
+}, 500)
 
-  const prefix = str.slice(0, start)
-  const highlightedContent = str.slice(start, end)
-  const suffix = str.slice(end)
-  return { prefix, highlightedContent, suffix }
+const router = useRouter()
+const showSuggestions = computed(() => {
+  return focused.value && suggestions.value && suggestions.value.length
+})
+const siteData = useSiteData()
+const alignRight = computed(() => true)
+const placeholder = computed(() => siteData.value.locales?.searchPlaceholder || 'Search')
 
-  // return `${prefix}<span class="highlight">${highlightedContent}</span>${suffix}`
+onMounted(async () => {
+  await getSuggestions(query.value)
+  const params = urlParams()
+  if (params) {
+    const keyword = params.get('query')
+    if (keyword) {
+      query.value = decodeURI(keyword)
+      focused.value = true
+    }
+  }
+})
+async function getSuggestions(keyword: string) {
+  query.value = keyword
+  if (!query.value) {
+    suggestions.value = []
+    return
+  }
+  const list = await search(query.value)
+  suggestions.value = list.map((item) => ({
+    title: item.title,
+    contents: item.contents.map((c) => ({
+      id: c.id,
+      path: item.path,
+      title: item.title,
+      parentPageTitle: item.title,
+      slug: `?searchId=${c.id}&keyword=${query.value}`,
+      contentStr: c.content,
+      content: highlightWords({ text: c.content, query: query.value }),
+    })),
+  }))
+  console.log('suggestions', query.value, JSON.parse(JSON.stringify(suggestions.value)))
 }
+
+const input = ref<HTMLInputElement>()
+
+function onHotkey(event: KeyboardEvent) {
+  if (event.target === document.body && event.key === 'k' && event.ctrlKey) {
+    input.value!.focus()
+    event.preventDefault()
+  }
+}
+function onUp() {
+  if (showSuggestions.value) {
+    if (focusIndex.value > 0) {
+      focusIndex.value--
+    } else {
+      focusIndex.value = suggestions.value.length - 1
+    }
+  }
+}
+function onDown() {
+  if (showSuggestions.value) {
+    if (focusIndex.value < suggestions.value.length - 1) {
+      focusIndex.value++
+    } else {
+      focusIndex.value = 0
+    }
+  }
+}
+function go(s: { external: boolean; path: string; slug: string }) {
+  if (!showSuggestions.value) {
+    return
+  }
+  if (s.external) {
+    window.open(s.path + s.slug, '_blank')
+  } else {
+    router.push(s.path + s.slug)
+    query.value = ''
+    focusIndex.value = 0
+    focused.value = false
+
+    // reset query param
+    const params = urlParams()
+    if (params) {
+      params.delete('query')
+      const paramsString = params.toString()
+      const newState = window.location.pathname + (paramsString ? `?${paramsString}` : '')
+      history.pushState(null, '', newState)
+    }
+  }
+}
+function focus(i: number) {
+  focusIndex.value = i
+}
+function unfocus() {
+  focusIndex.value = -1
+}
+function urlParams() {
+  if (!window.location.search) {
+    return null
+  }
+  return new URLSearchParams(window.location.search)
+}
+function expandSearchInput() {
+  input.value!.focus()
+  focused.value = true
+}
+onMounted(() => {
+  document.addEventListener('keydown', onHotkey)
+})
+onUnmounted(() => {
+  document.removeEventListener('keydown', onHotkey)
+})
+/* global SEARCH_MAX_SUGGESTIONS, SEARCH_PATHS, SEARCH_HOTKEYS */
 </script>
 
 <style lang="stylus">
@@ -313,7 +274,7 @@ function highlight(str, strHighlight) {
   }
 
   :root {
-    --c-brand: #5c6ac4;
+    /** --c-brand: #5c6ac4; */
     --c-brand-light: #7c87cf;
     --c-brand-dark: #3d4ba9;
   }
@@ -457,6 +418,10 @@ $MQNarrow = 959px
 $MQMobile = 719px
 $MQMobileNarrow = 419px
 
+mark {
+  font-weight: 500;
+}
+
 .search-box {
   display: inline-block;
   position: relative;
@@ -531,7 +496,8 @@ $MQMobileNarrow = 419px
     border-radius: 6px;
     padding: 0.4rem;
     list-style-type: none;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 
     &.align-right {
       right: 0;

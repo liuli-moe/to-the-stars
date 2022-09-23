@@ -1,10 +1,11 @@
 import { defineUserConfig, defaultTheme } from 'vuepress-vite'
-import data from './.temp/data.json'
+import config from './.temp/config.json'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
 import { giscusPlugin } from './plugins/vuepress-plugin-giscus'
 import { clearStrongAfterSpace } from './plugins/vuepress-plugin-clear-strong-after-space'
 import { textSearch } from './plugins/vuepress-plugin-text-search'
+import path from 'path'
 
 export default defineUserConfig({
   // 站点配置
@@ -16,7 +17,7 @@ export default defineUserConfig({
 
   // 主题和它的配置
   theme: defaultTheme({
-    ...data,
+    ...config,
     repo: 'https://github.com/liuli-moe/to-the-stars',
     docsBranch: 'master',
     editLinkText: '在 GitHub 上编辑此页',

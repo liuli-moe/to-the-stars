@@ -23,17 +23,15 @@ async function main() {
       const sections = (await readdir(path.resolve(src, item.from))).filter(
         (name) => name.endsWith('.md') && name !== 'readme.md',
       )
-      res[`/books/${item.from}/`] = ['readme.md', ...sections].map(
-        (section) => `/books/${item.from}/${section}`,
-      )
+      res[`/books/${item.from}/`] = ['readme.md', ...sections].map((section) => `/books/${item.from}/${section}`)
       return res
     },
-    {},
+    {} as Record<string, string[]>,
   )
 
   await mkdirp(path.resolve(__dirname, '.temp/'))
   await writeJson(
-    path.resolve(__dirname, '.temp/data.json'),
+    path.resolve(__dirname, '.temp/config.json'),
     {
       navbar: names.map((item) => ({
         text: item.to,

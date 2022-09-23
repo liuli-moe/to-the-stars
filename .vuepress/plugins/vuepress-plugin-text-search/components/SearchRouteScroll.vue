@@ -11,7 +11,7 @@ const router = useRouter()
 
 const routePath = ref('')
 async function triggerScroll(to: RouteLocationNormalized) {
-  console.log('route', routePath.value, JSON.parse(JSON.stringify(to)))
+  console.log('route', routePath.value, to)
   if (routePath.value === route.fullPath) {
     return
   }

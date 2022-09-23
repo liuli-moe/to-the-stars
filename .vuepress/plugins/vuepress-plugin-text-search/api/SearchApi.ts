@@ -1,4 +1,4 @@
-import { chain } from 'lodash-es'
+import _ from 'lodash-es'
 import type { Page } from 'vuepress-vite'
 import * as asyncUtils from '@liuli-util/async'
 
@@ -22,7 +22,7 @@ function filterContent(
   path: string
   title: string
 }[] {
-  return chain(data.contentMap)
+  return _.chain(data.contentMap)
     .filter((item) => item.content.includes(query))
     .slice(0, 20)
     .groupBy((item) => item.sectionId)

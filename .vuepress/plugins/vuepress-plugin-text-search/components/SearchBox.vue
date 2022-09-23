@@ -11,14 +11,14 @@
       @input="onSearch"
       @focus="focused = true"
       @blur="focused = false"
-      @keyup.enter="go(focusIndex)"
+      @keyup.enter="go(contents[focusIndex])"
       @keyup.up="onUp"
       @keyup.down="onDown"
     />
     <IconSearch class="search-icon" @click.native="expandSearchInput" />
     <SearchCommand class="search-command" @onCommand="expandSearchInput" />
     <ul v-if="showSuggestions" class="suggestions" :class="{ 'align-right': alignRight }" @mouseleave="unfocus">
-      <li v-for="(section, i) in suggestions" :key="i" class="suggestion" :class="{ focused: i === focusIndex }">
+      <li v-for="(section, i) in suggestions" :key="i" class="suggestion">
         <div class="parent-page-title" v-html="section.title" />
         <a
           v-for="s of section.contents"
@@ -26,6 +26,8 @@
           @click.prevent
           @mousedown="go(s)"
           @mouseenter="focus(s)"
+          :class="{ focused: s.id === contents[focusIndex].id }"
+          :data-suggestion="s.id"
         >
           <div class="suggestion-row">
             <!-- <div class="page-title">{{ s.title || s.path }}</div> -->
@@ -77,9 +79,10 @@ const suggestions = ref<
     }[]
   }[]
 >([])
+const contents = computed(() => suggestions.value.flatMap((item) => item.contents.map((c) => c)))
 
 const query = ref('')
-const focused = ref(false)
+const focused = ref(true)
 const focusIndex = ref(0)
 
 onMounted(() => {
@@ -133,7 +136,7 @@ async function getSuggestions(keyword: string) {
       content: highlightWords({ text: c.content, query: query.value }),
     })),
   }))
-  console.log('suggestions', query.value, JSON.parse(JSON.stringify(suggestions.value)))
+  console.log('suggestions', query.value, suggestions.value)
 }
 
 const input = ref<HTMLInputElement>()
@@ -145,22 +148,32 @@ function onHotkey(event: KeyboardEvent) {
   }
 }
 function onUp() {
-  if (showSuggestions.value) {
-    if (focusIndex.value > 0) {
-      focusIndex.value--
-    } else {
-      focusIndex.value = suggestions.value.length - 1
-    }
+  if (!showSuggestions.value) {
+    return
   }
+  if (focusIndex.value > 0) {
+    focusIndex.value--
+  } else {
+    focusIndex.value = contents.value.length - 1
+  }
+  const s = `[data-suggestion="${contents.value[focusIndex.value].id}"]`
+  const el = document.querySelector(s)
+  console.log('onUp', s, el)
+  el?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 function onDown() {
-  if (showSuggestions.value) {
-    if (focusIndex.value < suggestions.value.length - 1) {
-      focusIndex.value++
-    } else {
-      focusIndex.value = 0
-    }
+  if (!showSuggestions.value) {
+    return
   }
+  if (focusIndex.value < contents.value.length - 1) {
+    focusIndex.value++
+  } else {
+    focusIndex.value = 0
+  }
+  const s = `[data-suggestion="${contents.value[focusIndex.value].id}"]`
+  const el = document.querySelector(s)
+  console.log('onDown', s, el)
+  el?.scrollIntoView({ behavior: 'smooth', block: 'end' })
 }
 function go(s: { external: boolean; path: string; slug: string }) {
   if (!showSuggestions.value) {
@@ -430,7 +443,7 @@ mark {
   margin-right: 1rem;
 
   input {
-    background-color: var(--vp-c-bg);
+    background-color: var(--c-bg-navbar);
     transition: background-color 0.5s;
     cursor: text;
     width: 10rem;
@@ -567,7 +580,11 @@ mark {
       }
     }
 
-    &.focused {
+    a:hover {
+      background-color: #f3f4f5;
+    }
+
+    .focused {
       background-color: #f3f4f5;
     }
   }

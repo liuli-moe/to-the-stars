@@ -1,4 +1,4 @@
-import { defineUserConfig, defaultTheme } from 'vuepress-vite'
+import { defineUserConfig, defaultTheme, viteBundler } from 'vuepress-vite'
 import config from './.temp/config.json'
 import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
@@ -46,4 +46,11 @@ export default defineUserConfig({
   markdown: {
     breaks: true,
   },
+  bundler: viteBundler({
+    viteOptions: {
+      build: {
+        minify: false,
+      },
+    },
+  }),
 })

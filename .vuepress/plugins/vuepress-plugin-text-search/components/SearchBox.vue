@@ -56,7 +56,9 @@ import { search } from '../api/SearchApi'
 import { computed, onMounted, onUnmounted, reactive, ref, watch } from 'vue'
 import { useSiteData } from '@vuepress/client'
 import { useRouter } from 'vue-router'
-import { debounce } from '@liuli-util/async'
+import * as asyncUtils from '@liuli-util/async'
+
+const { debounce } = asyncUtils
 
 // see https://vuepress.vuejs.org/plugin/option-api.html#clientdynamicmodules
 // import hooks from "@dynamic/hooks";

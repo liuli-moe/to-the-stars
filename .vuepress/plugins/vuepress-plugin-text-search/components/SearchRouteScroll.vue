@@ -2,7 +2,9 @@
 import { onMounted, ref } from 'vue'
 import { RouteLocationNormalized, useRoute, useRouter } from 'vue-router'
 import Mark from 'mark.js'
-import { wait } from '@liuli-util/async'
+import * as asyncUtils from '@liuli-util/async'
+
+const { wait } = asyncUtils
 
 const route = useRoute()
 const router = useRouter()

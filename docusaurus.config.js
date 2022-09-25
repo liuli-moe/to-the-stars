@@ -52,7 +52,7 @@ const config = {
       loader: require.resolve('esbuild-loader'),
       options: {
         loader: 'tsx',
-        target: isServer ? 'node12' : 'esnext',
+        target: isServer ? 'node12' : 'es2017',
       },
     }),
   },

@@ -131,7 +131,12 @@ const config = {
           },
           {
             title: 'Community',
-            items: [],
+            items: [
+              {
+                label: '原作官网',
+                href: 'https://tts.determinismsucks.net',
+              },
+            ],
           },
           {
             title: 'More',

@@ -1,31 +1,20 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
 .DS_Store
-Thumbs.db
-db.json
-*.log
-node_modules/
-.deploy*/
-db.json
-package-lock.json
-.joplin-blog.json
-.yarn/*
-!.yarn/patches
-!.yarn/releases
-!.yarn/plugins
-!.yarn/sdks
-!.yarn/versions
-.pnp.*
-.joplin-cache.json
-*.epub
-dist/
-local-search.json
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# idea
-.idea
-*.iml
-
-# vscode
-.vscode
-test/
-.history
-.temp/
-.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

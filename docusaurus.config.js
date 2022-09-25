@@ -47,6 +47,15 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'logo.png',
   trailingSlash: false,
+  webpack: {
+    jsLoader: (isServer) => ({
+      loader: require.resolve('esbuild-loader'),
+      options: {
+        loader: 'tsx',
+        target: isServer ? 'node16' : 'esnext',
+      },
+    }),
+  },
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.

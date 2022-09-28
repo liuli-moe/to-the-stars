@@ -126,20 +126,29 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
-            items: [],
-          },
-          {
-            title: 'Community',
+            title: '小说',
             items: [
               {
                 label: '原作官网',
                 href: 'https://tts.determinismsucks.net',
               },
+              {
+                label: 'Epub 电子书',
+                href: 'https://github.com/liuli-moe/to-the-stars/releases/latest',
+              },
             ],
           },
           {
-            title: 'More',
+            title: '社区',
+            items: [
+              {
+                label: '同人画',
+                href: 'https://ttshieronym.tumblr.com/tagged/fanart',
+              },
+            ],
+          },
+          {
+            title: '更多',
             items: [
               {
                 label: 'GitHub',

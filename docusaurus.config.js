@@ -20,7 +20,7 @@ const clearStrongSpace = () => {
               if (
                 next &&
                 next.type === 'text' &&
-                ['，', '。', '？', '！'].includes(last) &&
+                ['，', '。', '？', '！', '〉'].includes(last) &&
                 next.value.startsWith(' ')
               ) {
                 next.value = next.value.trim()

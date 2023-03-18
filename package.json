@@ -4,13 +4,9 @@
   "version": "1.0.0",
   "scripts": {
     "docs-dev": "docusaurus start",
-    "docs-build": "docusaurus build",
-    "docs-deploy": "pnpm docs-build && liuli-cli deploy",
+    "docs-build": "docusaurus build && tsx src/rss.ts",
+    "docs-deploy": "gh-pages -d build --dotfiles",
     "build": "tsx src/main.ts"
-  },
-  "deploy": {
-    "type": "gh-pages",
-    "dist": "build"
   },
   "dependencies": {
     "@docusaurus/core": "2.1.0",
@@ -29,7 +25,6 @@
     "@docusaurus/types": "^2.1.0",
     "@easyops-cn/docusaurus-search-local": "^0.32.0",
     "@liuli-util/async": "^3.5.1",
-    "@liuli-util/cli": "^3.21.0",
     "@liuli-util/markdown-util": "^0.2.2",
     "@liuli-util/mdbook": "^0.2.3",
     "@tsconfig/docusaurus": "^1.0.5",
@@ -39,9 +34,14 @@
     "@types/node": "^18.7.19",
     "esbuild-loader": "^2.20.0",
     "fast-glob": "^3.2.12",
+    "feed": "^4.2.2",
     "fs-extra": "^10.1.0",
+    "gh-pages": "^5.0.0",
     "gray-matter": "^4.0.3",
+    "htmlparser2": "^8.0.1",
     "jszip": "^3.10.1",
+    "node-html-parser": "^6.1.5",
+    "parse5": "^7.1.2",
     "remark-html": "^15.0.1",
     "typescript": "^4.7.4",
     "unist-util-visit": "^2"

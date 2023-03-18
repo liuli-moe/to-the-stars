@@ -54,9 +54,11 @@ function parseFile(file: string): Omit<Item, 'link' | 'date'> {
   const html = parse(file)
   console.log(html.querySelector('title').textContent)
   const content = html.querySelector('.markdown')
-  content.removeChild(content.querySelector('h1'))
+  const header = content.querySelector('h1')
+  const title = header.textContent
+  content.removeChild(header)
   return {
-    title: html.querySelector('title').textContent,
+    title: title,
     description: html.querySelector('meta[name="description"]').getAttribute('content'),
     content: content.innerHTML,
   }

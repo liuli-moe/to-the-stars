@@ -3,6 +3,7 @@ import FastGlob from 'fast-glob'
 import path from 'path'
 import { parse } from 'node-html-parser'
 import { readFile, writeFile } from 'fs/promises'
+import { sortBy } from 'lodash'
 
 // const posts: Item[] = []
 
@@ -64,12 +65,41 @@ function parseFile(file: string): Omit<Item, 'link' | 'date'> {
   }
 }
 
+function convertName(chapterName: string) {
+  // 匹配类似 "060-第六十章-数码预言" 的章节名称，并捕获其中的章节标题
+  const regex = /\d+-([\u4e00-\u9fa5]+.*)\.(md|txt)$/
+
+  // 使用正则表达式进行匹配
+  const matchResults = regex.exec(chapterName)
+
+  // 如果匹配成功
+  if (matchResults) {
+    // 提取章节标题
+    const chapterTitle = matchResults[1]
+
+    // 根据需要的文件名格式进行拼接
+    const parts = chapterName.split('/')
+    const newPath = `${parts[0]}/${parts[1]}/${chapterTitle}.html`
+
+    return newPath
+  }
+
+  // 如果匹配失败，则返回原始文件名
+  throw new Error('match error')
+  // return chapterName;
+}
+
 async function main() {
+  const mdList = await FastGlob('books/*/*.md', {
+    ignore: ['**/readme.md', '**/99/**'],
+    cwd: path.resolve(__dirname, '..'),
+  })
+  const list = sortBy(mdList)
+    .map(convertName)
+    .slice(mdList.length - 10, mdList.length)
+
   const distPath = path.resolve(__dirname, '../build')
 
-  const list = await FastGlob('books/**/*.html', {
-    cwd: distPath,
-  })
   const posts: Item[] = await Promise.all(
     list.map(async (it) => {
       const file = await readFile(path.resolve(distPath, it), 'utf-8')

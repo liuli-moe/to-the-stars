@@ -4,7 +4,7 @@
 
 > 原作 wiki: <https://tts.determinismsucks.net/wiki/Main_Page>
 
-该项目主要是将目前几位作者的翻译打包为 epub 以便在手机和电子阅读器上阅读，同时避免国内网站删除、下架或不再维护网站而创建存档，目前也支持在线阅读，查看链接：<https://tts.liuli.moe/>。
+该项目主要是将目前几位作者的翻译打包为 epub 以便在手机和电子阅读器上阅读，同时避免国内网站删除、下架或不再维护网站而创建存档，目前也支持在线阅读，查看链接：<https://tts.liuli.moe/>。你也可以通过 rss 订阅最新的章节，链接：<https://tts.liuli.moe/rss.xml>。
 
 来自多位作者接力翻译
 

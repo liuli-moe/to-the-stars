@@ -154,6 +154,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/liuli-moe/to-the-stars',
               },
+              {
+                label: 'Discrod',
+                href: 'https://discord.gg/R3KZRj3A5u',
+              },
             ],
           },
         ],

@@ -4,7 +4,7 @@
 
 > 原作 wiki: <https://tts.determinismsucks.net/wiki/Main_Page>
 
-该项目主要是将目前几位作者的翻译打包为 epub 以便在手机和电子阅读器上阅读，同时避免国内网站删除、下架或不再维护网站而创建存档，目前也支持在线阅读，查看链接：<https://tts.liuli.moe/>。
+该项目主要是将目前几位作者的翻译打包为 epub 以便在手机和电子阅读器上阅读，同时避免国内网站删除、下架或不再维护网站而创建存档，目前也支持在线阅读，查看链接：<https://tts.liuli.moe/>。你也可以通过 rss 订阅最新的章节，链接：<https://tts.liuli.moe/rss.xml>。
 
 来自多位作者接力翻译
 
@@ -28,10 +28,10 @@
 - 幕间物语 2: 小玛德莱娜
 - 第三卷：存在悖论
 - 幕间物语 3: 昭昭天命 -- 待翻译
+- 第四卷：爱因斯坦 - 罗森桥 -- 原作正在更新，待翻译
 
 ---
 
-- 第四卷：爱因斯坦 - 罗森桥
 - 幕间物语 4: 超人
 - 第五卷：暗能量
 - 幕间物语 5: 世界毁灭者
@@ -41,11 +41,10 @@
 
 初始化
 
-1. 安装 nodejs <https://nodejs.org/>
-2. 安装 pandoc 并且添加到环境变量 <https://pandoc.org/>
-3. `pnpm i` 安装依赖
-4. `pnpm build` 生成 epub 文件
-5. `pnpm docs-setup && pnpm docs-deploy` 发布网站
+1. 安装 nodejs 18 <https://nodejs.org/>
+2. `pnpm i` 安装依赖
+3. `pnpm build` 生成 epub 文件
+4. `pnpm docs-setup && pnpm docs-deploy` 发布网站
 
 注意
 

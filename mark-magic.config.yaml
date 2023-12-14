@@ -46,6 +46,8 @@ generate:
         rss:
           hostname: https://tts.liuli.moe
           copyright: 'Copyright © 2023 Hieronym, Inc. Built with feed.'
+          ignore:
+            - '**/99/**'
   - name: 第一卷-量子纠缠
     input:
       name: '@mark-magic/plugin-local'

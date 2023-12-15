@@ -9,8 +9,8 @@ devDependencies:
     specifier: ^3.4.1
     version: 3.5.6
   '@mark-magic/cli':
-    specifier: ^0.4.1
-    version: 0.4.1(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11)
+    specifier: ^0.4.2
+    version: 0.4.2(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11)
   gh-pages:
     specifier: ^5.0.0
     version: 5.0.0
@@ -738,14 +738,14 @@ packages:
     resolution: {integrity: sha512-ZrI0J9wftPCQNlwLKZQAkAg0FrQk0xXNDGHqv4d2VaTBC8Kye2L8ET4CEAZf5M7IWQiXIIl1kVCCOI0HfvVdow==}
     dev: true
 
-  /@mark-magic/cli@0.4.1(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11):
-    resolution: {integrity: sha512-30dKBV+iFLixFRRC+DfxQsK/bHWSVb+ss7yb7Ln1sf6BrfL0C5eULWcMEUnxJiMd386TASpxPvEaFI7fEp1n/Q==}
+  /@mark-magic/cli@0.4.2(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11):
+    resolution: {integrity: sha512-/rzZOdma2Y9FnyLhizqBgfB8HQf5ja+Vex2XTIBfEIoIfhVzRSrCqCtDMz1b9exv72JTQMd3a/gybT7HbX54vw==}
     hasBin: true
     dependencies:
       '@liuli-util/async': 3.6.1
       '@liuli-util/fs': 0.1.0
       '@mark-magic/core': 0.2.0
-      '@mark-magic/plugin-docs': 0.4.1(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11)
+      '@mark-magic/plugin-docs': 0.4.2(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11)
       '@mark-magic/plugin-epub': 0.3.1
       '@mark-magic/plugin-local': 0.6.0
       bundle-require: 4.0.2(esbuild@0.18.20)
@@ -806,8 +806,8 @@ packages:
       mustache: 4.2.0
     dev: true
 
-  /@mark-magic/plugin-docs@0.4.1(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11):
-    resolution: {integrity: sha512-+tINoFiDg/R+MkLVCvnBiIF82/6U9Af5TzGS2UJwyrRwRazXq+h9MHFGRrlxwgIq26ZWH/Ypnbi2AWc9q4JTxw==}
+  /@mark-magic/plugin-docs@0.4.2(@algolia/client-search@4.22.0)(search-insights@2.13.0)(vue@3.3.11):
+    resolution: {integrity: sha512-rP0pfL8pK7n4knJKWQzwqBY+NcciRhn/ROBpXN+bgIzM13pmOF7L935vnSdEog48Ll5u839wsyxD68+d6uYQzQ==}
     dependencies:
       '@liuli-util/fs': 0.1.0
       '@liuli-util/markdown-util': 0.8.0

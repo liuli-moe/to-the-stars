@@ -9,7 +9,7 @@
   },
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.4.1",
-    "@mark-magic/cli": "^0.4.1",
+    "@mark-magic/cli": "^0.4.2",
     "gh-pages": "^5.0.0"
   }
 }

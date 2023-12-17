@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./node_modules/@mark-magic/cli/dist/config.schema.json
 
-generate:
+tasks:
   - name: docs
     input:
       name: '@mark-magic/plugin-local'
@@ -38,7 +38,6 @@ generate:
           categoryId: 'DIC_kwDOG4H1084CQhBn'
           mapping: 'pathname'
           reactionsEnabled: '1'
-          emitMetadata: '0'
           inputPosition: 'bottom'
           theme: 'preferred_color_scheme'
           lang: 'zh-CN'
@@ -57,13 +56,12 @@ generate:
       name: '@mark-magic/plugin-epub'
       config:
         path: ./dist/epub/第一卷-量子纠缠.epub
-        metadata:
-          id: tts-01
-          title: 第一卷-量子纠缠
-          creator: Hieronym
-          publisher: rxliuli
-          language: zh-CN
-          cover: ./books/01/assets/cover.png
+        id: tts-01
+        title: 第一卷-量子纠缠
+        creator: Hieronym
+        publisher: rxliuli
+        language: zh-CN
+        cover: ./books/01/assets/cover.png
   - name: 第二卷-宇宙膨胀
     input:
       name: '@mark-magic/plugin-local'
@@ -73,13 +71,12 @@ generate:
       name: '@mark-magic/plugin-epub'
       config:
         path: ./dist/epub/第二卷-宇宙膨胀.epub
-        metadata:
-          id: tts-02
-          title: 第二卷-宇宙膨胀
-          creator: Hieronym
-          publisher: rxliuli
-          language: zh-CN
-          cover: ./books/02/assets/cover.png
+        id: tts-02
+        title: 第二卷-宇宙膨胀
+        creator: Hieronym
+        publisher: rxliuli
+        language: zh-CN
+        cover: ./books/02/assets/cover.png
   - name: 第三卷-存在悖论
     input:
       name: '@mark-magic/plugin-local'
@@ -89,13 +86,12 @@ generate:
       name: '@mark-magic/plugin-epub'
       config:
         path: ./dist/epub/第三卷-存在悖论.epub
-        metadata:
-          id: tts-03
-          title: 第三卷-存在悖论
-          creator: Hieronym
-          publisher: rxliuli
-          language: zh-CN
-          cover: ./books/03/assets/cover.png
+        id: tts-03
+        title: 第三卷-存在悖论
+        creator: Hieronym
+        publisher: rxliuli
+        language: zh-CN
+        cover: ./books/03/assets/cover.png
   - name: 第四卷-爱因斯坦-罗森桥
     input:
       name: '@mark-magic/plugin-local'
@@ -105,13 +101,12 @@ generate:
       name: '@mark-magic/plugin-epub'
       config:
         path: ./dist/epub/第四卷-爱因斯坦-罗森桥.epub
-        metadata:
-          id: tts-04
-          title: 第四卷-爱因斯坦-罗森桥
-          creator: Hieronym
-          publisher: rxliuli
-          language: zh-CN
-          cover: ./books/04/assets/cover.png
+        id: tts-04
+        title: 第四卷-爱因斯坦-罗森桥
+        creator: Hieronym
+        publisher: rxliuli
+        language: zh-CN
+        cover: ./books/04/assets/cover.png
   - name: 番外
     input:
       name: '@mark-magic/plugin-local'
@@ -121,10 +116,9 @@ generate:
       name: '@mark-magic/plugin-epub'
       config:
         path: ./dist/epub/番外.epub
-        metadata:
-          id: tts-99
-          title: 番外
-          creator: Hieronym
-          publisher: rxliuli
-          language: zh-CN
-          cover: ./books/99/assets/cover.png
+        id: tts-99
+        title: 番外
+        creator: Hieronym
+        publisher: rxliuli
+        language: zh-CN
+        cover: ./books/99/assets/cover.png

@@ -19,6 +19,22 @@ jobs:
         with:
           submodules: true
           lfs: false
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: pnpm # or pnpm / yarn
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Install dependencies
+        run: pnpm i # or pnpm install / yarn install / bun install
+      - name: Build
+        run: |
+          pnpm build-docs
+          touch dist/docs/.nojekyll
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1

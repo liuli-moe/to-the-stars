@@ -2,6 +2,6 @@
 
 ![cover](./assets/cover.png)
 
-虫洞（英语：wormhole），又称 爱因斯坦-罗森桥（英语： Einstein—Rosen bridge ），是宇宙中可能存在的连接两个不同时空的狭窄隧道。
+爱因斯坦-罗森桥是一种理论上的构想，它提出了一种连接两个不同时空坐标的方法，也就是我们通常所说的“虫洞”。
 
-**[良子](https://tts.determinismsucks.net/wiki/Ryouko)的力量和[章鱼](https://tts.determinismsucks.net/wiki/Cephalopod)的虫洞技术的主题可能会很突出。**
+它的主题也许是[良子](https://tts.determinismsucks.net/wiki/Ryouko)的能力，也很可能是外星人的[虫洞技术](https://tts.determinismsucks.net/wiki/Cephalopod)。

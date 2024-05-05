@@ -6,6 +6,8 @@ tasks:
       name: '@mark-magic/plugin-local'
       config:
         path: ./books
+        ignore:
+          - "**/draft-*.md"
     output:
       name: '@mark-magic/plugin-docs'
       config:

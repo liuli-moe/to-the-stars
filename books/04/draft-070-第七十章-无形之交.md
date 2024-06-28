@@ -1,825 +1,283 @@
 # 第七十章 无形之交
 
-First‐time watchers of a Directorate session will be forgiven for a bit of initial confusion. Gone are the staid office meeting rooms of the lower committees, replaced by representations of a rotating selection of Humanity's historical centers of power. Throne rooms, UF bunkers, presidential palaces—but the Directorate shows a marked preference for the trappings of monarchy, where the symbolism of the Empty Throne is most potent.
+对初次踏入执政理事会的人来说，他们往往会被眼前的景象弄得一头雾水。因为他们会发现，下级委员会那些古板乏味的办公会议室早已不见踪影，取而代之的是在人类历史上轮流掌权的权力中心：王座厅、联合阵线掩体、总统府邸——不过，执政理事会对君主制装潢有着明显的偏好，因为在那里，“空位王座”的象征意义最为强烈。
 
-For it is the symbolism that matters, and is closely adhered to. The throne represents the missing _princeps_, the king who will never again hold sovereignty. The trappings of state represent what Governance lays claim to: that it is the legitimate successor to _every_ state, superseding them all. It does not shy away from using the symbols of failure, of nations that crumbled in ignominy or bloodshed, because _then_, it can remind the viewer of its own superiority.
+因为象征意义至关重要，而且被严格遵守。王座代表着缺席的元首、那个永不再掌权的亡君；那些种种旧式国家标志装饰物，则代表着执政体宣称的东西：它是所有国家的合法继承者，彻底地取代它们的一切。执政体毫不避讳使用那些失败的、在屈辱和流血中崩溃的国度的象征，因为这样一来，它就能以此时刻提醒会者自身无可比拟的优越性。
 
-Governance often twists the places it occupies to suit itself. Look closely, and you will see a mosaic of Human space, or a Governance logo, or the emblem of the United Front, engraved in a very anachronistic location.
+执政体常常扭曲它所占据的地方，以迎合自身的喜好。仔细观察，你会在一个非常不合时宜的地方上看到人类空间的马赛克、执政体的标识，或是联合阵线的徽记。
 
-**— Excerpt,** **_Looking Cthulhu in the Eye: a Viewing Guide for Governance_****.**
+**——摘录自《直视克苏鲁之眼：执政体观察指南》。**
 
-The resistance of the invading Cephalopods to intelligence extraction, even by magical means, is a notorious subject of debate. It has always been understood as a combination of mental incapability, information restriction, and disciplined suicide, but even then, there has been considerable speculation about brainwashing, memory deletion, or mass biological programming. Yet the evidence for any given theory has always failed to be fully conclusive: the telepathic evidence fails to catch more than glimpses of what _may_ be true, and biological studies on surviving samples have been inconclusive.
+<br/>
 
-This has been just one of the mysteries that I was able to resolve immediately after arrival. /Thinker‐preserving has reported back to the Consensus on _some_ aspects of the war. One such aspect is the use of memory and knowledge‐deprived individuals for combat. Still individuals, full members of their Tentacles, but stripped down, cleared of everything not immediately relevant to the tactical situation. The consciousness backups contain everything so in the long‐term nothing is lost. All of this is justified as a necessary defense against human "reality‐warping".
+头足类入侵者对情报提取的抗性一直是一个极具争议的话题，即使通过魔法手段也难以突破它们的防线。这种抗性通常被理解为心智能力的限制、信息获取的受限以及严苛的自我牺牲机制共同作用的结果，但即便如此，关于洗脑、记忆清除，甚至大规模生物编程的猜测仍然层出不穷。然而，每种理论都缺乏确凿的证据：心灵感应得到的证据支离破碎，而对幸存样本的生物学研究结果也同样毫无定论。
 
-/Thinker‐preserving has clearly lied about plenty, but this, at least, rings true to me. However, I can think of several other, more nefarious reasons such a policy might be adopted…
+这仅仅是我抵达后立即解开的众多谜团之一。/思裔-保护者向共识体汇报了战争进展，其中提到将被剥夺记忆和知识的个体投入到战斗。这些个体虽然仍保有自我，也是触手体中的正式成员，但它们被抹去了除战术相关信息之外的一切记忆。不过，它们的意识备份包含所有信息，因此从长远来看，没有任何记忆会丢失。这一所有系列措施都被证明是为对抗人类的“现实扭曲”能力的必要防御手段。
 
-**— Clarisse, Version Two Tactical Computer ( Shizuki Ryouko), excerpt from "Observations on Thinker Civilization".**
+/思裔-保护者显然在许多事情上撒了谎，但在这件事上，我认为它说的是实话。不过，我总是想到几个更恶劣的理由来解释它们为何要采取这种政策...
 
-"Alright, so it might help me stay grounded to write a bit in my free time, so here I am. Grounded _and_ hopeful, hopefully."
+**——克莱丽丝，第二版战术计算机（志筑良子），摘自《思裔文明研究》。**
 
-"It's hard to stay that way, of course. In a way, it almost feels selfish; the revelations about Consensus, and /Thinker‐preserving being only one Tentacle of the Cephalopods, are some of the best news humanity could have hoped for. But for me personally…"
+<br/>
 
-"Here I am out where no human has ever gone, doing things no human ever has, making a big difference. It's hard for the wish fulfillment to be more obvious. Just like the holos warned, though, it's not enough. You always want more. For me, I just want the option to come back."
+“好吧，也许在闲暇的时候写点东西，能帮助保持我心态平和，于是我现在试着写一些东西。希望我能始终保持脚踏实地的态度，而且心怀希望。”
 
-"I hope I _can_ come back. I hope I have enough grief cubes. Maybe hope is enough. I don't know."
+“当然，这可不是简简单单就能做到的事。从某种意义上说，这甚至有点自私；关于共识体和思裔-保护者只是头足类的一根触手这一事实，对人类而言可以说是最好的消息了。但就我个人而言……”
 
-"Maybe I'll write about the aliens later, but if things turn out for the best, you'll see them yourself. Objectively, they're _fascinating_. Fascinating, and capable of destroying us with a gesture if I rub them the wrong way. And there's something important I'd have to tell you when I get back."
+“我来到了过去前人未至的地方，做着前所未有的事情，并发挥着举足轻重的作用。我的愿望已然成真，这一点不言而喻。不过，正如全息影像所警告的那样，这还远远不够。人总是渴望得到更多。对我来说，我只是希望自己有回家的可能。”
 
-"That's… all I'm going to say about that."
+“我希望自己能回去。我希望我有足够的悲叹立方。也许只要怀有希望就足够了。我不知道。”
 
-"I don't hate being out here, I hate being out here without you."
+“也许我将来会写些有关外星人的文章，而且，如果一切往好的方向发展的话，你会很快亲眼见到它们。客观地说，它们非常有趣、令人着迷。虽然外星人很迷人，但如果我惹恼它们的话，它们仅需动动手指就能把我们轻易毁灭。等我回去之后，还有一件重要的事情要告诉你。"
 
-**— Shizuki Ryouko, Unsent Letters, #1.**
+“关于这些……我就说这里吧。”
 
-_ν·9a? suggests likely construction of habitat site in orbit of astronomical object 23a4f?|μ·Observation difficult, clouded by heavy intervening ship transits—|μ·Clear observation finally achieved after 2.547e50 fundamentals|ν+·Observed traffic consistent with posited use as 8b34? meeting site—|ν·Correlation with potential movements of… are unclear—_
+“我并不讨厌身处此地，我讨厌的是没有你陪伴在我身边。”
 
-**— Message from deep space espionage probe discovered by /Star‐faring near Turbulent Ink system. Pre‐encryption data accessed by direct nanite injection into core circuitry. Intrusion discovered after 2.129e43 fundamentals, leading to probe self‐termination.**
+**——志筑良子，未发送的信件，#1。**
 
-* * *
+<br/>
 
-"Penny for your thoughts?"
+**ν·9a?经推测，天体23a4f?的轨道上可能有生命栖息地存在——|μ·观测困难，受到大量穿行飞船的严重干扰——|μ·经过2.547e50个基础时间单位后，终于获得清晰的观测结果|ν+·观测到的航线活动与此前假设的8b34?会议地点高度吻合——|ν·与……潜在行动的联系尚不明确——**
 
-Asami stirred from her reverie, blinking at the girl who had approached her.
+**——该信息来自深空间谍探测器，由/群星-航行者在湍流墨水星系周边发现。通过直接将纳米机器人注入探测器核心电路得到了未加密的数据。此次入侵在2.129e43个基础时间单位后被发现，触发了探测器的自毁程序。**
 
-"Sorry, sorry, shouldn't have surprised you," Azrael said, dropping into the seat next to her. "You've just been so quiet this whole trip. Wanted to check in on you."
+---
 
-Asami shrugged, glancing back out the window of their chartered ramjet plane. By now, she had seen far more than she wanted of outer space, but there was still a certain appeal to be found in near‐orbit. The curve of the Earth, the distant contours of the Andes below… it was certainly more worth a look than the entertainment console, at least.
+“在想什么呢？”
 
-"Just thinking about the last time I was out here," she said, turning back towards the other girl. "We got to be all alone out in the Amazon. Not like this time."
+亚纱美从沉思中回过神来，眨了眨眼，看向走过来的女孩。
 
-_This_ time, those on the plane—the Homura‐related field team of the newly‐christened Task Force Monteagle—were heading out to what appeared to be Homura's Argentinian lab, only recently uncovered. There they were to dig into whatever old leads they could, hopefully before anyone thought to stop by and destroy the evidence.
+“抱、抱歉，我不是故意吓你的，”阿兹瑞尔一边说，然后在她旁边的座位坐下。“这一路上你都不怎么说话。我就是想过来看看你。”
 
-Though, speaking precisely, it wasn't clear if that was Homura's _only_ lab, even in the area.
+亚纱美耸了耸肩，目光再次投向窗外。尽管她对外太空的景象有些审美疲劳了，但近地轨道的风光依旧引人入胜。地球的弧线、还有下方依稀可见的安第斯山脉轮廓……这些都比娱乐控制台上的节目要吸引人得多。
 
-"I can sympathize with how you feel," Azrael said. "The independence of exploring alone or with someone you care about… I'm used to having plenty of time to myself. I guess this just isn't that kind of mission."
+“我只是在回想上次来这边的情形，”她转过头，对身旁的女孩说。“我们在亚马逊的时候都是自由行动的。这次可不一样了。”
 
-Azrael rubbed the back of her neck.
+这一次，她们乘坐的飞机上是——新成立的蒙蒂格尔特遣队中与焰相关的外勤小组——正在前往最近才发现的、疑似是焰在阿根廷建立的实验室。她们的任务是挖掘所有旧线索，最好能在有人企图销毁证据之前找到情报。
 
-"I guess you can think of it like your time in the military. Get in, do what needs to be done, get out. With much less chance of getting killed, and at least our destination is quite a bit in the wilderness, so you'll get to walk a bit. I look forward to a bit of a flight myself."
+不过，目前还不确定那里是否是焰在该地唯一的实验室。
 
-Working on the task force was, Asami had realized, a stressful mix of constant vigilance and uncertain dangers. For instance, there was the risk that the conspiracy they were against had enough additional capability to target the task force personally. That meant Asami had been obliged to sweep the plane before takeoff alongside a MagOps security squad, who had "helpfully" related stories of explosive soul gems, auto‐teleporting jet engines, and other obscure attack vectors.
+“我能理解你的感受，”阿兹瑞尔说道。“那种独自一人或是与自己在乎的人一起探索的自主感……我习惯了有大把属于自己的时间。但我觉得这次的行动和以往可能不太一样。”
 
-So, when they were all asked to minimize sleep to guard against attacks while airborne, Asami didn't really need to be _told_.
+阿兹瑞尔揉了揉自己的后颈。
 
-They also needed to move quickly. They needed to gather whatever evidence they could before any enemy conspiracy could outpace them. Whatever chance they had might not last.
+“你可以把这次任务当成军旅生涯中的一次行动。进去，完成任务，然后撤离。这次风险要小得多，而且我们的目的地还挺偏远的，所以你可以先到处走走。至于我，我其实挺期待在这次任务中飞翔的。”
 
-An environment like this wasn't really like being in the military. There was an added element of uncertainty, and a lack of opportunity to punch anything. It was hard to imagine anyone coping well. Well, except…
+亚纱美明白，在特遣队中工作无疑是一种充满压力的复杂体验，她必须时刻保持高度的警觉，确保自己有充分的时间迎接未知的风险。比如，她们所对抗的阴谋集团可能会有足够的能量对特遣队发起袭击。这意味着亚纱美不得不与一支魔法行动安全小组一道，在飞机起飞前对机体进行一次彻底的检查，她们甚至“好心地”分享了爆炸的灵魂宝石、能自主传送的喷气引擎以及其他隐蔽的攻击手段的传闻。
 
-Asami peeked back at Simona, a few rows back, seemingly enthralled by something on her console. _She_ seemed fine, as well she might be.
+因此，当所有人都被要求减少睡眠以防空中遇袭时，亚纱美其实不需要别人提醒。
 
-"It's not just about the plants," Asami said. "It's about my choice to be here. I feel… uneasy, like I don't know what I should be doing. Who knows how any of this is going to end? I don't really have any experience with investigations, or with Akemi Homura."
+她们得迅速行动，必须在那些敌对的阴谋集团出手前，搜集尽可能多的线索。因为眼下的每一个机会都可能转瞬即逝。
 
-She paused, weighing her feelings.
+这和军队的环境大不相同。它多了一份不确定性，而且缺乏出拳痛击敌人的机会。很难想象有人能游刃有余地应付一切麻烦。除了……
 
-"I'm not sure how to say this. Now, if something doesn't work out, it's kind of my own fault, so I feel way more nervous. Just listening to Command, or following Ryouko around, was easier. That feels like a terrible thing to say."
+亚纱美瞥了一眼身后几排的西蒙娜，现在她似乎被控制台上播放的什么东西吸引住了。对方现在看上去心情很好，这也算是个好兆头。
 
-Azrael looked down for a moment.
+“不只是这次行动的事情，”亚纱美说。“这还关乎到我为何选择来这里。我感到……很不安，就好像一切都不在掌握中。谁知道这一切最后会怎样收场呢？我对侦查工作和对付晓美焰都不是很在行。”
 
-"When I was younger, what they told me was that everyone has feelings like this. It's part of growing up and taking responsibility for yourself. I always thought that it was condescending to put it that way, but there is a kernel of truth to it. Uncertainty is a part of making real decisions. For me, that started the moment I left my home."
+她停顿片刻，权衡着自己的感受。
 
-On reflection Asami could see a bit of what Azrael meant: comparing someone's problems to your own could seem to be making light of them, even if it probably made them feel less alone.
+“我也不知怎么形容才好。现在，当事情不如预期时，我倾向于把责任归咎于自己，这让我压力倍增。比起那些，服从执政会的指示，或是跟着良子到处走动，都要显得轻松得多。但这话一说出口，就感觉让我无地自容似的。”
 
-But, more importantly…
+阿兹瑞尔低下头，沉思片刻。
 
-"None of my problems compare to what yours were," Asami said, shaking her head. "I'm not even worrying about Ryouko, which is probably the only thing worth worrying about."
+“我年轻的时候，她们告诉我，每个人都有过这样的体验。这是成长和承担责任的一部分。虽然这样听起来我好像在居高临下地说教，但有些话确实有点道理。事情中的不确定性，正是我们在作出真正决定时的关键推动力。对我来说，那是始于我离开家的那一刻。”
 
-"Maybe," Azrael said, stretching, a strange gesture that seemed to involve numerous back muscles, shuddering her seat.
+经过反思，亚纱美理解了阿兹瑞尔的一些意思：将别人的问题与自己的问题相比较，可能会有淡化他人问题的嫌疑，即使这能让她们感到不那么孤独。
 
-The rest of the short flight was uneventful, but the conversation had made Asami restless, and she ended up doublechecking the dossiers she had been given about the others on the flight. Most honestly needed no introduction—Simona, Azrael, and Ryouko's aunt, Shizuki Nana. There was also Meiqing, who Nana had taken on as an apprentice. She and Asami had reunited in Mitakihara and, well…
+不过，关键是……
 
-It had been fun enough, even given the circumstances, but it had been strained by Ryouko's alleged death looming over them. Meiqing clearly thought Asami might be delusional.
+“我的问题根本无法与你曾经面对的挑战相提并论，”亚纱美摇头说道，“我连良子都没担心过，虽然它可能是唯一值得我担忧的。”
 
-That and a few others made up the people on the flight. Asami hadn't been given files on the rest of the task force, but she knew it was extensive, and that she knew a few more of the people involved. That would have to do for now.
+“也许吧，”阿兹瑞尔边伸懒腰边回答，她的动作似乎牵动了背部的许多肌肉，连带着座椅也跟着颤动了一下。
 
-Their destination was the city of Mendoza in Argentina, close to the Andes. Long ago, its position close to one of the only passes over the mountains had made it a military hub, a key buttress against Brazilian forces to the east. Those days had converted what was once a minor regional capital, the heart of wine country, into a major population center, a legacy that had not entirely dimmed in the centuries since.
+短暂的飞行旅途平淡无奇，但之前的谈话让亚纱美感到心神不宁，于是她再次检查手中关于同机其他人员的档案。说实话，大多数人都无需再次介绍——西蒙娜、阿兹瑞尔，以及良子的姨妈，志筑奈奈。还有美青，她是奈奈最近收的徒弟。美青和亚纱美在见泷原相遇过了，而且……
 
-Perhaps it should have been difficult to maintain an alert mindset in a place like this, but the military had ingrained in her a perpetual situational awareness, and she found it natural to check her corners and exits as they made their way out of the airport. She still found it an offensive notion, though, the idea of watching for ambushes on Earth.
+虽说团聚的时光还算不错，但良子被宣布死亡一事仍旧给众人笼罩了一层阴影，现场的气氛有些充满了紧张。美青她很明显认为亚纱美可能出现了幻觉。
 
-They wasted no time in heading for the site, using small bursts of magic to keep themselves fresh even beyond what the implants provided. Whatever bags they had would be automatically couriered to hotel rooms they might well never see.
+机上的其他几个人也在名单上。亚纱美并未获取整个特遣队的详尽资料，但她知道队伍规模庞大复杂，其中不乏她认识的面孔。目前她掌握的情报也仅限于此了。
 
-The target lab facilities were outside the city proper, nestled into arid foothills far off the beaten path. The reason for that was obvious, but years ago it had been registered as an "Institute for Environmental Studies", allegedly studying custom biological and implant augmentations for extreme environmental conditions. At its peak, there had been eleven researchers, all of whom had afterward absconded for the colonies and rapidly disappeared. None of it had any official connection to Homura or her Valentin identity.
+她们的目的地位于阿根廷安第斯山脉旁的门多萨市。在过去，这里紧靠山中少有的几个隘口之一，因而成为一个战略要地，它是抵御东面巴西军队的重要屏障。在那个动荡的年代，这个曾经的地方性首府、葡萄酒之乡最终成为一座举足重轻的大都市，几个世纪过去了，它的地位依然未曾式微。
 
-That meant they were obliged to trek into the hills, along disused paths that had once been used only by drone transports and small buggies. They had all agreed on taking the walk—less conspicuous, and an easy journey for the likes of them, especially in the early morning cool. Even if Azrael kept grumbling about having been grounded—no need to draw any extra attention to their group.
+在这样的地方，随时保持警惕原本是件困难的事，但多年的军旅生涯已经将形势感知深深植入她的直觉。当她们踏出机场那一刻，亚纱美发现，自己依然在不自觉中始终在观察四周的角落和出口。然而，这种在地球上依然时刻提防伏击保持警惕的思维习惯，让她感到些许反感。
 
-Asami wasn't usually a desert kind of person, but she found herself appreciating the occasional insect or hidden bird, the scraggly plants hurrying to fix their last bits of carbon for the night.
+她们没有浪费时间，一抵达就直奔目标地点，途中还使用少量魔法以保持精力的充沛，甚至超越了植入物提供的水平。她们的行李会直接寄送到酒店房间，但她们恐怕连酒店的门都没空踏足。
 
-There wasn't time to take notes or sit and watch, as she would have preferred, so instead she bookmarked the images in her memories, casting her eyes at all she could. The thing about being on Earth was, someone had almost certainly catalogued everything, far better than her.
+实验室坐落于市郊，隐藏在人迹罕至的干燥山麓中。这样的地点选得极其隐蔽。多年前，实验室使用着“环境研究所”的名头，专注于极端环境下生物自适应与植入物强化技术的研究。在全盛时期，实验室共有11名科研人员在此工作，后来他们迅速撤离到殖民地，全部杳无音讯。此地与晓美焰和她的瓦伦丁身份都没有任何官方瓜葛。
 
-Still, it would be fun.
+这就意味着她们必须徒步深入山中，踏上曾经只有无人机运输车和小型越野车涉足的废弃道路行进。为了保持隐蔽，她们一致选择步行——对她们而言，这段路并不难走，特别是在清晨时空气清新凉爽的时候。尽管阿兹瑞尔一直在抱怨被限制在地面上的不快——她们必须避免吸引到任何人的注意。
 
-The laboratory came into view just as the sun was starting to peek over the horizon, nestled in a valley between two dusty hills. As they came over the ridge, they could see light scintillating off the facade of the three‐story building, lonely behind a low permacrete wall. There were no other structures, and a small loading dock on the right backside had grown covered with dirt.
+原本亚纱美对沙漠没什么偏好，但在行进的过程中，那些偶然出现在视线中的小昆虫、悄悄躲藏着的小鸟，以及在夕阳下顽强生长的矮小植物还是逐渐吸引了她的注意。
 
-It was not the building itself that sparkled with light, but the sheet of transparent ceralymer that covered it. As a building that still had potential use, it had been sealed upon its decommissioning, to protect the building and its environment from each other. Such measures could be effective for years, but it had _been_ years, and she could spot some soil gathering on top of one of the roofs. Still, the condition of the building looked acceptable.
+现在并无充裕的时间来做笔记或者闲坐观赏，虽然这正是她所倾向的，因此，亚纱美选择在脑海中给这些景象标上记忆书签，将眼前的图像尽数记录在脑海中。反正地球上的美景早有人细致地归档过了，而且对方做的肯定比她自己详细得多。
 
-They fanned out over the terrain. Azrael was now free to fly and took full advantage, moving into the air with great flaps of her wings, enough to draw glances from those who weren't used to seeing it.
+即便这样，途中的种种发现还是颇有乐趣。
 
-They had the official maps of the building to plan their approach, assuming they were reliable. Entry points were a door on the roof, the loading dock, and the main entrance. The building's power systems were near the loading dock, so a team would head there to restart things, but the fastest route to the labs was the main entrance—and that was where Asami would head.
+当的温热的太阳刚好从地平线冒头时，实验室的轮廓也随之映入众人眼帘，它坐落在两座尘土飞扬的小山包夹的谷地中。当她们登上山脊，首先看到的是一栋三层高的楼房，建筑表面在晨光的映照下反射出金色的光辉，那栋孤独的大楼隐匿在一片低矮的透明陶瓷聚合物背后。四周寂静无声，右后侧不远处一个的小型装卸区已被尘土覆盖。
 
-First, though, Azrael flew a tight loop around the building, touching down on the exposed section of the roof after a few preliminary scans. The area seemed clear.
+那些闪亮的光芒其实不是来自大楼本体，而是外层的透明陶瓷聚合物薄膜折射出来的。作为一栋仍有使用价值的大楼，它在闲置时进行了严密的封装，以确保建筑和外界环境互不影响。这种保护措施大体可以维持好几年，现在时间久了，亚纱美能看到屋顶已经堆积了一些泥土。但总体来说，大楼的保存状况还算可以。
 
-_Just some nesting birds,_ Azrael thought, referring to the ceralymer damage. _Not sure how they got in. Oh, they're not happy to see me._
+一行人在地面展开了搜索。阿兹瑞尔现在终于有机会展翅高飞了，她用劲地拍打那对壮实的翼翅，向空中飞去，这一幕把所有第一次见到此景的队伍成员都吸引得目不转睛。
 
-Asami took a glance at the building as she moved, spotting a few ground doves dive‐bombing Azrael as she hastened into the building. It was fascinating behavior, if she had more time to look.
+她们依据官方建筑图纸来规划行进入路线，前提是图纸没错。几个潜在的进入口包括屋顶上的一扇门、装卸区和正门。建筑的电源系统靠近装卸区，因此必须有人去那里启动系统，但最直接通往实验室的路就是正门——也就是亚纱美要走的方向。
 
-Asami moved in with her group: Meiqing, Nana, and Christina San Miguel, a magitech specialist affiliated with Science Division. A small laser cutter sufficed to get them through the ceralymer, which flexed unhappily as they carved out a door‐sized sheet and pushed it aside.
+阿萨谢尔则绕着大楼飞了一周，在进行了一系列初步的侦查之后，她于屋顶的一个裸露部分着陆。这片区域看起来并无异样。
 
-There was no need to wait for the power to come online. Meiqing reached into a panel on the side of the double doors and toggled the manual override, allowing them to push the translucent doors apart.
+**这里只有一些筑巢的鸟儿，** 阿兹瑞尔想，她指的是那些陶瓷聚合物遭到损坏的区域。**我不明白它们是怎么进去的。哦，它们好像不太欢迎我。**
 
-The doors moved easily despite the years, revealing a narrow atrium leading up to a glass‐and‐steel staircase. The walls were standard holographic‐emitting, and the empty space in front of them suggested where there might have once been chairs and a table in a waiting area.
+亚纱美在往前走的时候，回望了一眼那座建筑，只见几只地鸽正在向拼命赶往建筑内部的阿兹瑞尔发起冲击。如果有更多时间驻足观看的话，这番情形还挺有意思的。
 
-One thing was immediately obvious: someone had been here before.
+亚纱美和她的同伴一起进入：同行的有美青、奈奈，以及一位来自科学部门的魔法科技专家——克里斯蒂娜·圣米格尔。她们借助一台微型激光切割器，轻松挖通了一道门形的出口，当那块巨型的陶瓷聚合物板块被切下来后，克里斯蒂娜随手一推便将其搁置在一旁。
 
-Whoever it was hadn't been particularly subtle about it, leaving exposed wiring and wall terminals right inside the atrium, wall panels on the floor next to the seating area. It was exactly where one would try to gain access to a building's systems, if one were unable to go any deeper and didn't care about secrecy.
+她们没太多耐心等待电力的恢复。美青伸手接触门一侧的操作面板，并将其切换为手工操作模式，这样，她们才能推开前面那扇半透明的巨门。
 
-They were instantly on higher alert, each of them performing respective scans of the area as Christina moved for the terminals. A few seconds later, confirmation came through from one of the other teams that building power was coming back online in a moment. They didn't transform, yet.
+门很意外地被轻易推开了，对面露出一个被玻璃与钢铁结构的楼梯包围的狭长大厅。墙壁是那种常见的全息投影面，原本应该摆满了桌椅的空间现在一片空荡荡，显然这里曾是大楼的等候区。
 
-_Can confirm systems have been activated at least once before,_ they were told. _No timestamps, but I can tell._
+一个细节显而易见：有人到过这里。
 
-Of course, a past startup should have triggered an alert on a Governance monitoring system somewhere. The fact that it evidently hadn't, or had been ignored, had obvious implications.
+来者似乎并未刻意遮掩，手法一点也不隐秘，在大厅里随意留下了裸露的电缆和墙面终端，墙板不规则地散落在等候区的地面上。在这样的地方，如果有人想要潜入建筑的系统，又进不了里面，或者根本就不在乎行动是否会被人发现，那他们很可能就会选在这里下手。
 
-They paused a moment in anticipation, waiting for reactivated traps or system failures, and when none manifested the building's internal mirror array came to life, bathing the lobby in cool dawn sunlight.
+全队立刻提高了警觉，所有人都在仔细扫描周围的环境，而克里斯蒂娜走向了其中一个终端。几秒钟后，其他小组传来消息：建筑的电力即将恢复。现在，她们还没变身。
 
-Christina transformed, summoning a gossamer blue‐and‐white wand, translucent with bright runes, and planted it into one of the open terminals, where it passed intangibly straight through the optical screen. A moment later, a cable snaked out from behind the terminal and installed itself on Christina's wrist port, a rather more standard method of accessing the network.
+**我能确定系统曾被启动过，但确切时间不明，** 对方说。**虽然没有时间戳，但我能分辨出来，在过去某段时间内系统有过响应。**
 
-They waited for a conclusion, Asami peering up at the building's upper floors, where frosted glass doors denied access to unauthorized personnel.
+按理说，这样的操作会在某个管理监控系统留下记录。所以推测，警报要么没响起，要么被系统给忽略了，这明显不合常理。
 
-_Our predecessors were more careful about hiding their electronic traces than their physical,_ she thought. _I wouldn't even be able to follow this without magic‐based tracing. It's a bit strange that they tried to get in here, though. Even without a building AI managing security, you'd want direct hardware access, TCF breach or not._
+她们稍作停留，等待可能隐藏的陷阱重新启动或者系统出现故障，当一切并无异状时，建筑内部的镜子阵列忽的动了起来，清凉的晨曦阳光穿越镜片，洒满了大厅。
 
-She frowned, and some kind of magic eyepiece appeared over one eye. With implants an eyepiece seemed superfluous, but when it came to magic, who was Asami to say?
+克里斯蒂娜变身完成，她召唤出一根轻盈的蓝白色魔杖，通透的杖身上面镶嵌着明亮的符文，她将魔杖插入一个敞开的终端，魔杖无形地穿过光学屏幕。片刻之后，一根电缆从终端后面蜿蜒伸出，自动连接到克里斯蒂娜用来访问网络的手腕端口上。
 
-_The building datastores have been completely wiped, and probably not by whoever got here first. Not too surprising; it'd be silly for Homura to just leave her secrets out in the open. The question is whether any other measures were taken. Otherwise, a skilled mage might get the information anyway._
+她们静静地等待结果，亚纱美则抬头向上望去，凝视着建筑的高层，那里的磨砂玻璃门阻挡了任何未经授权的闯入者。
 
-The eyepiece disappeared and she disconnected from the terminal.
+**我们的前辈似乎很擅长隐藏网络活动的踪迹，而且做得比隐匿物理足迹方面更精细谨慎**，她想。**如果没有魔法追踪手段的辅助，我甚至没法追查到这边。不过，他们费劲潜入这里的行为依然有些蹊跷。就算这里缺少负责安全的建筑智能AI，对方访问系统时应该也需要直接连接硬件才是，不管是否有TCF的干扰存在。**
 
-_I need hardware access. Let's go._
+亚纱美轻轻皱了皱眉，一只魔法眼罩瞬间出现，覆于她的右眼之上。有了植入体，眼镜看起来似有些多余，但谈及魔法，她又算什么行家呢？
 
-"Hardware access" meant reaching the building's computing cluster, hidden in the building's basement with the other hardware and cooling systems. So they moved onward, deeper into the facility. Default‐mode security doors opened at their approach, revealing abandoned hallways and lab space, stripped bare of important equipment, leaving only the self‐assembling furniture, desks, and fixtures embedded in the building itself.
+曾经存储于此的数据全被擦除了，甚至可能不是第一个最先到达的人做的。但这其实不足为奇；如果焰真的将自己的秘密昭告天下，那未免也太蠢了。问题是，她是否还布下了其他防范措施。因为现在看起来似乎任何一个经验老道的魔法少女都有机会在这里查到信息。
 
-They kept their senses and sensors on edge, checking around every corner as they passed. If there was even anything left in the facility, it had likely been picked over by their unknown third party. Their only hope to find anything here was a magic sweep, which could be done later.
+搜索结束后，亚纱美的目光一转，那层魔法眼罩便随她的意念消失，与终端的连接也随之切断。
 
-They headed down a flight of stairs, entering what should have been hardware storage. Instead, there was more lab space, accompanied by extensive fluid and chemical piping. The maps were wrong, and given what Simona had told them, it was possible to guess that this was where the growth vats had been.
+需要直接对接硬件。她想，我们走吧。
 
-Asami looked back at Simona. Did it bother her, descending into what might very well be her birthplace?
+“对接硬件”意味着必须深入到建筑的服务器集群区域，它隐藏在地下室深处，与其它硬件设备和冷却系统相互依存。她们不断前行，进入设施的更身处，默认模式中的安全门在她们靠近时便自动打开，对面露出废弃的走廊与实验室，昔日的重要设备早已不见踪影，只留下一些嵌入建筑本身里的自组装家具、办公桌和其它的一些固定装置。
 
-It was hard to tell—the girl had her professional mask on. Asami was tempted to probe Simona's feelings a little, but now simply wasn't the time. They had a secret lab to investigate.
+她们保持着警惕，感官和传感器全力发动，每穿过一个角落就细致检查一番。如果设施里还剩下什么东西的话，可能已被某些不知名的第三方挑选过一番了。她们能否在这里找到有用的线索，唯一的希望似乎就寄托在稍后的魔法扫描上。
 
-Most of the building's computing hardware had been stripped out, leaving a cavernous server room that was nearly all empty, save from rows and rows of sealed connection docks. Only in the far back were a few boxes still in place, large, metal, and austere—the residual systems that maintained the building itself.
+她们走进下一段楼梯，进入原以为是硬件仓库的地方，结果，却来到一个满是管道和化学设备的实验室，地图显然有误。从西蒙娜之前的话中推测，这里曾经可能是放置生长罐的区域。
 
-Such hardware would have no information left about the former lab or its operations, but Christina marched forward purposefully, plugging herself into the machines as quickly as possible. With magic, it was possible to find even the ghosts of the machines that had once been there.
+亚纱美转过头，目光扫过西蒙娜。下面的地方可能是她的出生地，这会让她感到不自在吗？
 
-Yet Christina soon shook her head unhappily.
+很难说——那个女孩时刻戴着她的职业面具，不露声色。亚纱美很想探查一下西蒙娜的感受，但现在不是安抚的时候。现在最重要的任务是调查这个秘密实验室。
 
-_This isn't just the usual clean‐up job. My magic seeks are failing. I've only heard about this kind of thing in power study. Some magical girls can block clairvoyance. A few can block it even from the future. One of the best kinds of magical security. But that would mean…_
+这栋楼里大部分的计算硬件都被拆卸一空，只留下一个空荡荡的巨大服务器机房，除了一列列密封的连接端口外，几乎空无一物。只有最远处还存有几个大型金属盒子，外表朴素无华，它们是那些维持建筑基本运作的残存系统。
 
-_There's only a handful of such magical girls,_ Nana commented. _That alone is useful information._
+这类机器不会存储关于原始实验室的操作痕迹和运作信息，但克里斯蒂娜现在目标明确，她抬步坚定地向前走去，并迅速与机器建立连接。在魔法的帮助下，即使是机器在过往操作时留下的微弱痕迹也能找到。
 
-_Can you break that kind of seal?_ Christina thought. _It's a kind of magic, after all._
+可不久后，克里斯蒂娜的表情露出几分失望，轻轻摇了摇头。
 
-_I've yet to figure out how to project it into the past,_ Nana thought. _Or attach it to someone else's magic. My abilities are a very blunt tool. Though we can make the try._
+这可不是普通的擦除手段。我的魔法搜索落空了。我只在力量学研究上听过这种事。有些特殊的魔法少女能禁止远视探查。少数人甚至能预先从未来封锁它。这是最好的魔法安保措施之一。但这意味着……
 
-_Maybe I can contribute,_ Simona thought, neutrally. _More power couldn't hurt._
+能做到这一点的魔法少女屈指可数，奈奈想。这本身就是个值得注意的线索。
 
-As the others gathered in front of the servers, Nana raising her hands and scowling, Asami found her attention drawn off towards one of the side walls.
+你能打破这种封印吗？克里斯蒂娜边琢磨边想。说到底，这也是魔法的一种。
 
-It was a nondescript section of the room, a simple white wall which would have once been inaccessible behind metal boxes, now gloomy in the dim light.
+我还没搞明白怎样把它投射到过去，或者怎么将它附加到别人的魔法上，奈奈若有所思地想。我这个技能现在还比较粗糙，不过我们可以试一下。
 
-She stepped forward, certain there was something there.
+或许我能助一臂之力。增加点力量总没坏处。西蒙娜平静地想。
 
-She had felt something like this once before, in a context that was both very different… and a little similar. That had been in an underground complex on a distant world, a trap set for Sakura Kyouko…
+当其他人围在服务器旁边，奈奈举起双手，紧锁眉头时，亚纱美感应有什么吸引着她的视线，转头注意到了角落里的那面墙壁。
 
-It couldn't be, could it?
+那是房间里最不起眼的角落，只有一面素净的白墙，之前它被大金属柜遮挡着，如今在昏暗的光线下透着几分冷清。
 
-No, she realized. It could easily be.
+她走上前去，直觉告诉她那里可能隐藏了什么。
 
-_Shizuki‐san,_ she thought. _Nana._
+她仿佛在似曾相识的场景中又感受到似曾相识的情绪。那次是在一个遥远星球的地下设施里，为佐仓杏子设下的圈套……
 
-The others stopped, registering the emotional content of her message.
+不会吧？不是真的吧？
 
-_What is it?_
+不，她意识到，很可能就是那样。
 
-_There's something buried inside the wall, like what we encountered on X‐25._
+志筑，奈奈，她想。
 
-She felt a chill on her spine as Nana and Meiqing's attention shifted immediately to where she was indicating. On X‐25 it had been Ryouko who had felt it first, but she had too, in the end, and here they were again, she, Meiqing, and Nana.
+其他人停下来，感应到她传来的复杂情绪波动。
 
-This one was smaller, though. Much smaller, small enough that she would never have noticed if they hadn't walked right by it. Perhaps the size of a particularly large grapefruit.
+那是什么？
 
-_My powers are very limited when it comes to synthetic walls,_ Meiqing thought. _We'll have to take her word on it._
+墙里好像埋着什么东西，就像我们在X-25遇到的那种。
 
-_We'll need an evac ready before we try anything,_ Nana thought. _Damn, if only we had a teleporter._
+当奈奈和美青的注意力立刻转移到她指的地方时，她感到脊背一阵发凉。在X-25，最开始感觉到陷阱的是良子，但最终她也感觉到了，现在又是她、美青和奈奈遇上这种情况。
 
-Strictly speaking, there wasn't necessarily any rush, not this time, but the last one had been a bomb. Could they afford to wait for backup to arrive? They had the option to go back outside and try from there, but was _that_ safe? If it were a bomb, what was the trigger?
+不过，这个东西要小得多。很小一个，小到如果不是自己正好走过，不然她根本没法注意到。它大概有一个大柚子那么大。
 
-Nana made an unhappy gesture.
+我的能力不太好处理合成墙，美青想。我们只能相信她的判断了。
 
-_It's not just about our safety. We also need to keep whatever evidence we can intact. But until we can be sure about escaping or stopping an explosion, there's simply no guaranteed good option. If we wait outside for a teleporter and a bomb goes off, at least we won't be caught inside with it._
+在作任何行动之前，我们必须做好随时撤退的准备，奈奈想。可恶，要是有个传送者在就好了。
 
-The details were sorted out quickly: an emergency request was placed to MSY relays in Mendoza for whatever teleporters they might have. The other teams would be withdrawn and their own squad would move to a location outside, behind a hill, where Meiqing would fabricate earthen walls to bunker them down. There they would wait until a suitable teleporter and shield generator arrived.
+严格来说，这次并不一定需要急匆匆的，但上次是个炸弹。她们能撑到援兵到来吗？她们可以选择回到外面测试，但那安全吗？如果那东西真的是炸弹，触发它的条件是什么？
 
-It was a vexing wait, more so when it stretched out into minutes, then to nearly half an hour. Asami was used to not having the right power or the ability available—in the military, that was all too common. But they were supposed to be specialists here. This was _their_ mission, and practically the first thing they had needed to do was call in outside help.
+奈奈烦躁地挥了挥手。
 
-Their reinforcements arrived at length; it turned out they had been forced to pull the best candidate teleporter out of a costume performance in a neighboring town, and she had only agreed to come once they explained how serious the situation was.
+这不仅仅关乎我们的安全。我们还需要尽可能保护所有证据。但在我们确保能逃脱或阻止爆炸之前，根本没有万全之策存在。如果我们在外面等传送者，即使炸弹爆炸，我们也不会被困在里面。
 
-_I was supposed to be getting facturas with my partner,_ the girl in question huffed, appearing inside their earthen bunker with a shower of sparkles. _I'm only back on Earth for a week. But the situation is serious, yes?_
+具体计划很快敲定：向门多萨的魔法少女行会中继站发出紧急请求，要求派任何一个传送者来。其他小组将撤离，而她们自己的小队将转移到外面一个小山丘后面，美青会在那里制造土墙作为掩护。她们将在那里等待合适的传送者和护盾发生器抵达。
 
-All they had told her was that the situation was TCF breach‐related. Which was still more than Governance or the MSY wanted to admit, but it would have been impossible to avoid saying _something_, and you didn't want people's imaginations filling in the blanks.
+等待的过程乏善可陈，当时间一分一秒过去，从几分钟延长到半小时时，一股焦虑逐渐蔓延开来。亚纱美早已习惯了力不能及的挫败感——在军队，这种情况太常见了。但在这里，她们应该是专家能手。这本来是她们的任务，却不得不向外面求援。
 
-_We think we've detected some kind of trap,_ Nana thought. _Designed to ensnare anyone who passed by. There was something similar on X‐25. We were lucky Miss Nakihara was here to notice it at all._
+她们的增援终于到了；同时得知，行会派遣的最佳人选传送者是被邻镇的一场化装舞会上拉出来的，而对方是在了解事态的危急后才勉为其难同意了请求。
 
-X‐25 had already been blamed on the TCF breach conspiracy, and Governance had already agreed to tying it into to whatever happened here.
+本来我应该在享受搭档请的油条呢，那个女孩抱怨想，并伴随着一阵闪光出现在众人身处的土堡垒里。我原本并不打算在地球待太长时间。可你们说这事挺要紧的，对吧？
 
-_Traitors, honestly,_ the teleporter said. _It is hard enough to fight the squid as it is. I am glad to assist._
+众人只告诉她，她们调查的东西与TCF违规事件有关。但涉及到的情报远超出了执政体和魔法少女行会肯接受的范畴，但如果不提供一些信息，让她光靠想象去拼凑，那就更难以应对了。
 
-It was time to proceed.
+我们好像发现一个陷阱，奈奈想。它会钓出每个过路的人。之前在X-25上也有类似的东西。不过多亏有中原小姐在，我们发现了它的存在。
 
-They returned to the datastore room with a single teleport, the journey dazzling them with a dizzying blast of glowing five‐pointed stars.
+X-25的时间已经被归咎于TCF违规阴谋，执政体也同意将此次的发现与那次事件关联起来。
 
-They stayed in a tense circle for a moment, senses and sensors casting about over the area. Nothing had changed—still the same dreary computer room, without even holographic walls to interact with.
+说实话，叛徒，传送者说。要对抗那些章鱼已经够难的了。但能帮上忙我也挺乐意的。
 
-Asami pointed as best she could at where the thing was. It would be up to the others now.
+行动的时刻到了。
 
-The barrier generator stepped forward, and with down‐to‐the‐millisecond timing, projected her barrier forward, a web of white light projecting from her palms—right as Simona added her own orange enhancement magic from the side.
+在一阵传送的耀眼之光后，众人回到了数据存储室中，感觉就像一瞬间穿过了五彩缤纷的光环。
 
-They waited on trigger‐alert, the barrier generator glaring at the wall as if it would kill her, barrier pulsing.
+她们紧张地围成一圈，齐齐激活了感官和传感器，分散开在该区域进行搜寻。一切都没有变化——四周仍然是阴森空旷的电脑房，连可以互动的全息墙都没有。
 
-_I have it,_ the barrier generator thought, finally, meaning that she had sealed the object off and everything seemed fine. No explosion yet, but if it did, she could hopefully absorb it.
+亚纱美尽量清晰地标示出目标的位置。剩下的就看大家的了。
 
-The teleporter tapped the ground with a red‐and‐gold stick.
+制造屏障的机会向前走了一步，屏障精确地启动激活，一道细腻的白光网从她掌心射出，而西蒙娜则在一旁用自己的橙光魔法增强这份力量。
 
-Asami kept her guard up as they shifted, flooding her eyes with sudden morning light. They were half a kilometer away now, and now they could see what the barrier enclosed, an excavated ball of metal and permacrete, hanging in shimmering white above sunbaked rock.
+她们全神贯注，准备随时应对未知的情况。屏障生成者盯着墙壁，她的眼神中带着决绝，就像她面对的是某种致命威胁一样，她的屏障在手中跳动着。
 
-Nana's hands glowed purple, and for a barely perceptible moment the barrier flickered, letting in a flare of Nana's magic that outshone the sun itself.
+“得到控制了。” 屏障生成者最终心中有了定论，“物体已被隔离，目前一切顺利。尚无爆炸，如果真有什么意外，我觉得我能够抑制住它。”
 
-The barrier sealed shut and they waited, breaths held.
+传送者轻轻地用一根镶着红金的魔杖敲击地面。
 
-Nothing happened, and now their sensors could pierce the veil.
+随着她们的转移，亚纱美时刻警惕着，忽然之间，晨光刺破了长夜，晃得她几乎睁不开眼。她们现在已经远离了原地半公里，目光所及之处，只见一个用金属和透明混凝土组合打造的球体在朝阳的照射下熠熠生辉。
 
-_No bomb,_ Nana thought. _But a datacrystal._
+奈奈张开的掌中泛着幽紫的光芒，在那一瞬中，防护屏障透出丝细漏光，使奈奈的魔力时隐时现地闪烁着，仿佛想要与旭日争辉。
 
-The barrier generator lowered the hunk of wall to the ground, releasing it a moment later. Technologically, the stealth device itself would be quite a find, but why would there be a hidden data crystal in the wall?
+屏障重新被封闭了，途中她们一直屏息凝视地看着。
 
-* * *
+然而，什么事也没发生。她们的传感器已经穿透了这层幕布。
 
-_It's a surveillance recording,_ Christina thought, her wand inserted into the metal.
+没有炸弹，奈奈想。但是里面有个数据存储晶体。
 
-_A surveillance recording? Of what?_ Asami asked.
+屏障控制者小心翼翼地将那面墙放到地上，没过多久，屏障也随之解除。通常来讲，隐形装置本身就是个颇具价值的发现。但墙中为何隐藏着一个数据晶体呢？
 
-Instead of answering directly, Christina gestured at Meiqing.
+这是监控录像，克里斯蒂娜一边想，一边将她的魔法棒深深插入了金属之中。
 
-_Give me a second,_ Meiqing thought.
+监控录像？里面录了些什么东西？亚纱美追问想。
 
-The ground beneath them rumbled, and then with a loud snap a dome of dirt slammed into place around them, swallowing them in darkness, except for the glow of Christina's wand.
+克里斯蒂娜没有直接回答，只是向周美青示意。
 
-As good a way to block prying eyes as any other. The teleporter and barrier generator they had recruited were still nearby, but had been lured away for a debriefing. Other than that, the principals were here: Nana, Simona, Azrael.
+等一下，再给我点时间，美青回应想。
 
-Christina's wand came to life, and a hologram projected out into the space between them. It took a moment for Asami to recognize it as a recording of a building interior, likely the same one they had just left. Not much was discernable—it could have just been a random hallway.
+就在这时，地底下传来了隆隆的声响，接着“砰”的一声响，一个土丘陡然升起，将她们团团围住，外界的光线被挡在了外头，只剩下克里斯蒂娜魔杖的微光在黑暗中跃动。
 
-Four maintenance drones skittered into view, the size of small dogs and spider‐legged. They looked slightly odd, a bit bulkier than what Asami was used to, but nothing she would have looked three times at. They stopped in place.
+这是个在众目睽睽之下离开的好办法。她们招募的传送员和创造屏障的队员都已被派去做简报工作。除此之外，主要任务全都在奈奈、西蒙娜、阿兹瑞尔身上。
 
-_"Intercepted tightbeam audio transmission"_ appeared at the top of the hologram.
+克里斯蒂娜的魔杖如同被赋予了生命，在她手中一个全息影像在众人面前浮现。亚纱美花了一会功夫才认出这是里面某个建筑内部的环境，可能是她们刚刚离开的那一幢。画面中没有太多特殊的东西——只是一个看上去普普通通的狭长走廊。
 
-"It is absolutely galling how she keeps managing to do this," a girl's voice said, an overlay arrow appearing above one of the drones to indicate the speaker. "_We're_ supposed to be the ones with the plan. How can she keep out‐predicting us?"
+一会后，画面中突然出现了四个不停嘎吱作响的小型维修机器人，它们看上去像长着蜘蛛腿的小狗。与亚纱美熟悉的同类型版本相比，这些机器人的体型略微大了些，不过并没什么特别的地方。突然它们停了下来。
 
-Another girl's voice replied from another drone:
-
-"The calculations are not perfect. You know that, and you know who we're facing down. I hate it too, but she must have some superior method of prediction."
-
-A third voice now:
-
-"Better than _her_? Better than Laplace's Demon itself? The only way I could see that is if that old witch Oriko isn't as dead as they make her out to be. Whatever the case is, I'm sure it certainly isn't some _goddess_."
-
-The accent on the last word was disdainful, to say the least.
-
-The second drone groaned.
-
-"We're not doing this again. Look, thanks to her and our other friends we have an incredible advantage, Akemi Homura or not. No one understands computation as well as we do. The resulting flexibility is our edge."
-
-"May it be as you say," the first drone said. "But Akemi Homura is proving much more _flexible_ than our mutual enemies. It's only a matter of time before she makes a move on our little backdoor."
-
-"Let them think that's all we have. As long as they think that's how we're getting in."
-
-The last drone finally spoke up:
-
-"We're wasting time here, I'd rather not spend any more time in these drones than I have to. You know how much she hates their limited capacity."
-
-One of the spider drones raised an appendage and an object flashed into the recording above it: an astrolabe, glowing gold, out of nowhere.
-
-Another flash, and the drones were gone.
-
-There the recording ended, leaving the group to blink at each other in the murky dark.
-
-_Where do we even begin with that?_ Nana thought. _First off, are we even sure this is authentic?_
-
-They looked to Christina, who didn't respond right away, eyepiece still glowing as her magic worked. The frown on her face got deeper.
-
-_Right,_ she thought finally. _I have no reason to think otherwise. Everything validates, and it's even properly authenticated as TCF‐compliant and secure, but get this, it's using one of the_ newer _protocols, one of the parallel TCFs set up after the recent breach incidents. Specifically, this is the one derived from the Version Two Tactical Computers. At the time this was allegedly recorded, two years ago, those weren't known to be alternate‐branch._
-
-She looked at Nana, who nodded for her to continue.
-
-_But of course we all know about Homura's involvement in that work. This is likely intended as a calling card, there to make us think she made this recording._
-
-She paused.
-
-_Of course, how much does this prove it was really her? Well, this recording uses a form of magic‐based validation called retrospection catalysis, which is one of the hardest ones to break. It's not impossible, of course, but for now I would say it's very likely to be her. Ideally, we would wait for MESBH to study it and reach their conclusions, but that will take quite a bit._
-
-She stopped there, the glow of her eyepiece casting a strange light on her face.
-
-_Well, then we can talk about the contents of the video,_ Nana said, shaking her head. _Before we even touch the other stuff, the drones definitely seemed like they were talking to each other, but using tight‐beam audio? If they were remote‐controlled why wouldn't the controllers talk with each other directly? Maybe an AI would know better._
-
-_I'm more concerned about this Laplace's Demon they're talking about,_ Meiqing thought. _That's_ quite _the name. If it has any truth to it._
-
-_It would explain why they think they could take on Governance_ or _Homura,_ Simona thought. _I can speak from experience that Homura's ability to predict the future is uncanny. But not perfect, and a real Laplace's Demon would be_ perfect.
-
-_The Homura I knew, before New Athens, was pretty far from perfect at predicting the future,_ Nana thought. _Still, the conspiracy can't be perfect either, or we would have never had any success against them._
-
-Asami realized, with some discomfort, that she was probably the only one here who had scoffed at the drones' dismissal of the Goddess. _She_ knew that it was a perfectly good explanation for Homura's recent predictive powers.
-
-Did she need to say something? It was possible she didn't have to: after all, Chitose Yuma and Sakura Kyouko would take the idea seriously, even if the others wouldn't.
-
-_The Goddess explanation can't be so readily dismissed,_ Asami thought, hiding a cringe. _Homura has the Goddess's other Ribbon, after all. It sounds like the conspirators might even be taking that seriously._
-
-_Asami‐chan…_ Meiqing thought, only to her.
-
-_You may be right,_ Azrael thought, to Asami's surprise. _Though if any of them take the idea seriously, it's a wonder they aren't panicking._
-
-_The drone girls did seem awfully certain of themselves,_ Christina commented.
-
-_Someone with a TCF backdoor into Governance would be,_ Nana pointed out. _And, it sounds like, some other kind of trump card. The MSY has already enhanced its security procedures, but this just adds more fuel to that fire._
-
-She sighed, putting a hand to her hand.
-
-_Honestly, we don't need more questions about our security._
-
-Asami waited a few seconds, but no one else seemed to have anything to say on the subject—at least, not while including her in the telepathy.
-
-_What about the teleportation at the end?_ Asami thought. _It kind of looked like one of the drones was casting magic. We could be dealing with some kind of mage with drone‐based magic. Like Patricia von Rohr, though I'm definitely not saying she was involved here._
-
-_With magic involved, it's nearly impossible to say anything with certainty,_ Nana said. _But it does mean we can look through MSY membership records for anyone similar._
-
-_How likely is that to work?_ Asami asked.
-
-In answer, Nana looked at Azrael, whose wings had rustled unhappily.
-
-_Wouldn't have caught most of the rogue colony girls I've had to hunt down,_ Azrael thought, reading the cue. _But that doesn't mean we don't try._
-
-* * *
-
-Today, executives of the MSY had been summoned to the Directorate Plenary Chamber.
-
-A golden throne, wide as it was tall, stood atop a dais some five meters wide and a meter high. The back of the throne was composed of dragons in gold leaf, bright like the morning sun, and in front was a gilded podium and a series of cerulean incense burners. Towering columns painted in vermillion red, ten meters high, rose to the domed ceiling, with illustrations of Earth etched into jadeite tiles of ultramarine blue and viridian green. Below, the dias was flanked by additional gold and cerulean incense burners, large enough to fit a person. The finer details were impeccable, every minute ripple of paint rendered as if it had been freshly brushed.
-
-But this Dragon Throne was no mere historical replica. Instead of facing inward, its dragons turned their heads away, their fierce eyes shadowed, their claws clutching not Dragon Pearls but the Core Worlds of Humanity, blue‐green orbs swirling with clouds, finely dusted with the lights of cities and orbiting satellites. The patterns of the ceiling were not mythic creatures but constellations, logos, representations of all that Governance oversaw.
-
-And the Throne, of course, remained Empty.
-
-Kyouko made her way into the chamber, stepping brusquely over the wooden threshold at the front entrance. The setting was arresting in its grandeur, but she focused her attention on the political principals: Kuroi Kana, Tomoe Mami, and Seo Si‐won, standing in the center facing the throne, surrounded by the circular bench where the members of the Directorate would soon be arrayed. Not quite how the throne room of the Forbidden Palace had been arranged, but Governance had its own trappings.
-
-Right on cue, the Directorate Representatives appeared all at once, snapping into place in their seats neither a second late nor early. Today there was a full house, and as the circle of thirteen Representatives gazed pointedly down at them, Kyouko had the opportunity to gauge their questioners—enough time to note that while most were in their usual outfits, some had adapted a bit to suit their surroundings. Science and Technology, for instance, had dropped his usual mad scientist look for a scholar‐bureacrat's robe and finialed cap.
-
-More important, though, were the two Representatives sitting closest to the Empty Throne. The first was Yuma, to the left, occupying her seat as _Governance: Magical Girls_. They met gazes, and then Yuma stood up and began making her way down to her MSY fellows. A second later, MG shimmered in to replace her. The symbolic was explicit: today Yuma was representing the MSY, not Governance.
-
-The second key representative, to the right of the throne, was _Governance: Public Order_. That position meant he was chairing the meeting. Today, he had swapped modern wear for a robe of white silk brocade, embroidered with the two large black arrows of Governance in front, and additional logos on both of his arms.
-
-Kyouko patted Yuma's head when she arrived beside her, and Yuma made an annoyed noise. The girl was back in her child avatar for the meeting, and she had stuck with her magical girl costume today; her bright pastel green color and cat ear headband made for quite a contrast with the surroundings.
-
-At the appointed time, Public Order brought the session to order.
-
-"I am sure our summons brings no surprise to any of you. While publicly it is important to keep a united front, what we have learned about the TCF breach and MSY internal decision‐making has raised concerns that require meaningful consultation. In this closed session, I hope for a productive discussion and the resolution of key questions, away from too much public attention."
-
-"First, we will discuss the recent security breaches in the TCF, what has happened, what we have found in the investigation, and what we will do moving forward. That will serve as context for the second part of the discussion, where we will discuss the MSY's rogue elements, what the MSY knows about them, and what should be done. Finally, we will talk about MSY decision‐making and the Church of Hope."
-
-Public Order crossed his arms. He had never been the most popular member of the Directorate, not even when the role had been Yuma's, and the current Public Order her Advisory AI. Now that Public Order wore a sharp, authoritative look, he had become the face of some of Governance's less savory aspects, all the subtle means of inhibiting dissent—concealing information, denying access to jobs and resources, and so forth.
-
-"On the topic of security," he said. "The Trusted Computing Framework is intended to serve as a provably Human value compliant, incorruptible foundation for all important computing. However, it is not invulnerable to the application of magic, and we have relied upon you, the MSY, to help us protect ourselves—unknowingly, at first, but consciously since the end of your masquerade. We have never been comfortable with the arrangement; we prioritized cooperation previously, given the Cephalopod threat, but now we find such an arrangement difficult to tolerate."
-
-Yuma moved to the middle of the floor to speak, her reflection murky on the black‐tiled floor.
-
-"I speak in my capacity as a Second Executive of the MSY and Head of Governmental Affairs. The security measures used by the MSY were agreed upon by all parties shortly after we became public, and our previous efforts had been successful for centuries. The issue now is that the threat far exceeds what both we and you considered plausible at the time."
-
-She paused rhetorically, looking around the room to meet the eyes of the Directorate.
-
-"Of course, what was considered plausible was based primarily on our own assessment of the situation, which proved incorrect. We underestimated the prevalence of rogue elements within our own organization, and their willingness to conspire against the common good. That is a matter we will address shortly. As for the current topic of TCF security, my colleague Kuroi Kana, Director of the Black Heart, will discuss previous and existing security arrangements."
-
-She stepped aside, making room for Kana to give her own statement. By now, her unassuming, deliberately inconspicuous demeanor was reasonably familiar in the Directorate chambers, though today she affected a pair of cosmetic glasses, which Kyouko hadn't seen in years.
-
-As Kana stepped forward, a set of stylized diagrams appeared in front of all the members, sheaves of virtual reference materials to accentuate what she was saying.
-
-Kana waited a moment to begin.
-
-"The magical defense of Humanity's computing systems—the MSY's contribution to Governance's information security, both before and after 2440—relies on the routine scanning and verification of core computing infrastructure and sapients. The most important of these are the AIs that program other AIs and software, the source from which all computing springs. Intrusion or damage here, at the root of the system, could propagate throughout the entire computing framework, and is the most serious kind of attack. All other attacks, whether by mundane or magical means, would have only limited and temporary effect, and would inevitably be discovered. This is a welcome fact, as it is simply not remotely physically possible to magically monitor all computing systems all the time. Instead we only need to defend the root."
-
-"But the TCF breach _was_ an attack on this root, an attack that has demonstrated critical flaws in our existing procedures. The existing regime of routine inspections and verification must be insufficient."
-
-"Analysis of the possible attack vectors has shown that the lack of continuous monitoring is the core problem. Put simply, mages capable of the necessary tasks are rare and needed at the front and this was the primary consideration at the beginning of the war, when these plans were formed in conjunction with Governance. On annual revision, the extra resource expenditure to do better was always deemed unnecessary."
-
-She made a gesture, and a new set of files presented themselves. These displayed graphically how the new inspection procedures would work, changing colors to indicate assessed risk and detected hypothetical attacks. Additional metadata detailed the pairs of magical girls who would now be on continuous rotation, the additional telepathic screening they would undergo, and the novel magical artifacts that would be deployed in conjunction. There would now always be someone on‐site, on _all_ the sites. In addition, red teams of magical girls and newly‐constructed AIs would now be assigned to look for security holes and suggest improvements, under Black Heart purview.
-
-"Of course, this is much more resource‐intensive than the previous arrangement—we estimate ten new AIs and two hundred magical girl personnel. Military Affairs has already approved our reassignment requests away from the front, as the current period is relatively quiet, but this may have to be reassessed later."
-
-She stopped there, turning the discussion over to questions. The first several questions were purely technical in nature, but the last one was more difficult. It was a moment before Kana responded:
-
-"Unfortunately, we have not yet found definitive evidence of when or where the primary penetration occurred. Our studies suggest that a program of repeated modify‐and‐erase intrusions between audits would have been the most likely approach. Investigation is ongoing, but without firmer evidence it is possible we will never know."
-
-With that resolved, Kana ceded the floor.
-
-One of the Directorate members to their right stirred. This one struck observers immediately as by far the least human member of the Directorate, but the average human struggled to explain _why_. In one sense, she looked like an attractive human, short‐haired, with the same inscrutable ethnicity of many Governance AIs, and the standard I/O eye. In another, her appearances had been carefully adjusted to convey a kind of steely otherworldliness. Sleek, eerie, incorruptible.
-
-Kyouko remembered this same Directorate member in an earlier meeting, open to the public. There, she had spoken about the anger and trauma within the AI community, and about how demand for reinspection by new branch TCF AIs was far outstripping supply.
-
-"The reestablishment of security is only one part of the larger corpus of work that must be completed," _Governance: Artificial Intelligence_ said, leaning over the railing of gilt bronze. "Those responsible for this atrocity must be captured and brought to justice for their crimes against our very personhoods. We have begun by reexamining databases for manipulation and fabrication, with an eye towards the likely targets of the TCF Conspiracy. As part of this, we have reanalyzed much of the raw data from sector surveys, with the aid of retired and volunteer AIs, in order to shine a light on the dark corners of space where they may have hidden themselves."
-
-Like Kana, she summoned reference material for the attendees, this time focused on a display screen. This screen began with a star map of Governance‐controlled space, with key systems highlighted in green—a standard display familiar to even a schoolchild. It quickly shifted angle, and an additional series of virtual displays appeared nearby, surrounding the central one, depicting individual groups of stars or a system, with one area labeled.
-
-"As you can see, we have already found a number of anomalies: probable planets, interstellar asteroids, and other objects that are missing from the usual catalogs, accompanied by signs of data manipulation and outright fabrication. However, while we have begun resurveying these objects using stealth assets, nothing notable has been uncovered. The sheer number of anomalies potentially indicates an attempt to drown anything of real worth inside a sea of noise, and there is some risk that all of this is mere misdirection. Nonetheless, we have no choice but to pursue all of it. Access to an updating list of these anomalies has been provided to the MSY for consideration."
-
-She paused, looking pointedly at MG, whose face was impassive.
-
-"The potential for something else to be out there in the void is obvious, especially after the recordings that were found at the asteroid," she continued. "For a Directorate Advisory AI to be suborned is an outrage, whatever the reason, but the purpose for which she was used is truly unforgivable."
-
-Suffice to say, the fact that Humanity had murdered an apparent group of Cephalopod negotiators at the dawn of the war was a diplomatic catastrophe of the first order. For it to have been imposed on Humanity by malevolent forces who were now coordinating with the alien invaders… the Directorate, and MG, felt justified rage.
-
-The topic was sensitive enough that it had yet to be made public, nor had it been included in the information dumped onto the internet by the conspiracy. Perhaps it made both sides look bad.
-
-There were fewer questions this time, with most of those interested electing to forward technical suggestions by other channels. There had already been a session for everyone to vent their spleens, and Governance AIs didn't repeat themselves unless they felt it necessary.
-
-Afterward, the current Director of the MSY's Science Division, Seo Si‐won, stepped forward. She was impeccably dressed, hair tied back in a short ponytail, and looked how one might imagine a woman about to enter her fifth century, confident and poised.
-
-Still, Kyouko could see the strain in her posture as she moved towards the center. She hoped she would be alright.
-
-"There is another topic of interest to the Directorate," Si‐won said. "We have achieved some closure on the incident at the Eurydome Institute of Theoretical Gravitonics, thanks to the efforts of Governance investigators. While Lemaître was verified after the incident, the evidence now clearly suggests he was under the influence of the TCF backdoor. Sabotage by the lab AI was always the most likely theory, and there is no longer any dispute about the cause. The more interesting question is motive."
-
-"Of course, Lemaître had the authority and skill to cover his own tracks. But using magic, our own specialists were able to glean that the intentions of the conspiracy may have been two‐fold. Not just to assassinate Shizuki Ryouko, but also the Director, Tao Shaojie, and in so doing severely damage ITG's research. Interestingly, targeting Sakura Kyouko did not seem to be part of the plan."
-
-"The conclusions are not yet finalized, but I do not expect them to change. In my opinion, it is likely this was a deliberate attempt by the conspiracy to sabotage the war effort."
-
-She paused.
-
-"Let's do some questions before we move on to the next topic," she said.
-
-"That is somewhat surprising, isn't it?" Public Order asked, after a moment. "During the recent terrorist attacks, the conspiracy had plenty of opportunity to damage the war effort far more than they did."
-
-It was really more of a comment than a question, and another Representative responded before Si‐won could.
-
-"Remember that they also tried to discredit both us and the MSY in the eyes of the public," _Governance: Public Opinion_—the human Fatimah Mai—said. "That would be difficult to do if they discredited themselves by seriously damaging the war effort."
-
-"Then perhaps their motivations are even more malicious than we suspected," _Governance: Military Affairs_ said. "Though I admit there is not much lower to go."
-
-"Indeed," Si‐won agreed. "In response to this and the other incidents, Public Order has instituted a series of measures for improved site security on war‐relevant research institutes across human space. Where the MSY is involved, or where magic‐related research is performed, we have complied, and added our own action plans on top of that."
-
-Si‐won waited a few seconds, tapping her fingers on the side of her leg. Was that impatience or nerves? Kyouko couldn't tell.
-
-"That conveniently brings us to the next topic," Si‐won said, deviating from the prepared statement. "As you know, the Zeus Research Institute was founded in Mitakihara to study magical phenomenon, both in a fundamental sense and, nowadays, at the intersection with high technology. We've made a number of breakthroughs over the past century, but progress since the start of the war has been rather slow. We now believe we know why."
-
-She took a breath before continuing:
-
-"There has been a coordinated campaign of scientific sabotage dating back more than fifteen years, perpetrated as a coordinated effort by the lab AIs themselves to stall progress. Findings were ignored, data was subtly tainted, experimental conditions were modified. Much of the damage is irreversible—tainted or ignored data can perhaps be recovered with serious magical effort, but there is no way to recover from malevolently damaged experiments, other than to run them again. We have been set back perhaps a full decade or more."
-
-Kyouko nodded silently, wishing Si‐won could see her. They had rehearsed what she would say, and discussed all this with some of the Directorate members in advance, but as head of Science Division Si‐won was also responsible for overseeing the institute. For her, it was a terribly personal disaster, and Kyouko knew for a fact that she hadn't slept since the news broke, dealing with the fallout. Her staffers had even called in the MHD on one occasion.
-
-There was a resignation offer still sitting unacknowledged on the Leadership Committee's agenda. Perhaps, if there was a political need for someone's head to roll, they would accept. But not yet. Not if Kyouko could avoid it.
-
-"This has gone a long way towards explaining recent lack of progress in the field," Science and Technology said, before anyone else could say anything. "And the Zeus Institute has been by far the biggest scientific target we have identified. In terms of why, we have no direct evidence, but it seems safe to say that given the terrorists' reliance on magic to infiltrate computer systems, they _really_ didn't want studies on magic and technology to move forward. Perhaps they were afraid it would help us detect them."
-
-"Which is a sensible enough inference," Artificial Intelligence said, again leaning forward. "But there may be more to the story than that. Our analysts are not convinced that all breaches and anomalies can be explained solely by TCF corruption. If other forms of magic or technology are being used to conduct operations on a large scale, then the attacks on Zeus may be an attempt at concealment."
-
-"The investigations of our newly‐established task force have reached a similar conclusion," Kyouko said, stepping forward to be seen. "We think the enemy has considerable magical capability, more than we originally thought. That makes things complicated."
-
-She kept her silence on exactly what had been found in Argentina. They weren't ready to share the details of that. Not until all the implications had all been worked out.
-
-"It's time to move on to the next topic, I think," Public Order said, after an interim of silence. "Governance's trust in the MSY is founded in part on the organization's capacity to organize and speak for all magical girls, and implicitly to maintain order in a demographic we ourselves little regulate. In that context, the existence of rogue magical girls acting outside the auspices of the MSY is uniquely troubling. Chitose Yuma?"
-
-"We take this matter as seriously as you do," Yuma said, without missing a beat. "We do not consider ourselves an authoritarian organization, but to function we have rules, membership rolls, and monitoring and surveillance. To learn that some of us have hidden themselves, and worked so decisively against everyone's interests, is deeply troubling, and I hate and regret the pain that the actions of some of them have caused."
-
-She didn't call the MSY a government. Formally, they weren't one, and doing that in front of the Directorate tended to step on toes.
-
-"But, not all of them," Yuma continued. "We must take the time to first talk about Akemi Homura."
-
-This was a topic Governance had insisted upon in the meeting planning, and indeed they couldn't dodge it, even if it hit them where it hurt the most.
-
-"Akemi Homura is a special case," Yuma continued. "We all learned that at New Athens. Now that we know she is alive, it is clear that the unique powers she displayed there are still in play. All of us, Incubators included, have failed to find her or understand her plans, but so far what she has done furthers Human interests. Her hidden presence may even be construed as a good thing."
-
-She looked around the room, gauging the reactions of the Representatives.
-
-"I understand what might be said about that," she continued. "That perhaps we, the MSY, are not trying as hard as we could to look for her, that the leadership is compromised by personal ties to Akemi Homura. I am here to assure you that appearances are not reality. For decades we have searched for her, devoting personal resources long after the official searches were called off. Finding her is a primary goal of our new task force, which is the official continuation of those efforts. We have been _trying_."
-
-Yuma paused rhetorically, looking down briefly.
-
-"But, given all of that, we have chosen to face facts as they are. The unpleasant truth here is, I do not believe either Governance or the MSY is capable of bringing Homura in. So we have planned around the likelihood that we will not. And frankly, I think Governance should too. After all, I believe Governance prides itself on being able to face unpleasant truths."
-
-"I know that's not something you want to hear, but we, the possessors of magic, have not been able to control Homura. Rebuke us for that if you like, it doesn't change the fact that we probably never could."
-
-During the ensuing silence, Kyouko tried to read the expression of the assembled Representatives—the human ones, at least. It was hopeless.
-
-"I understand that we operate from a position where we may not have a choice," Public Order said, "but we cannot simply await her actions. I think the history of both your organization and of human government makes clear the many risks of uncontrolled agents. Whatever happens, you must keep trying."
-
-"Of course," Yuma said. "And again, we will not give up. But the higher priority must be placed to the other group, rather than the one with good intentions which we cannot catch."
-
-"Hard to argue with," Public Order said, "but we will have to trust that you will search for Akemi Homura with the level of dedication you claim."
-
-The exchange was short, but no one else spoke. Appropriately, Kyouko thought: what exactly was anyone supposed to say? Yuma was fundamentally right, and Governance was indeed not an organization to throw fits about what it could not change, however it groused.
-
-"Let's move on to the next topic, then," Public Order said. "There _is_ a group of individuals whose malevolence is not in question here. I believe Kuroi Kana is to speak on that?"
-
-The woman in question stepped forward.
-
-"I will discuss what we know about the TCF Conspiracy," she said, adjusting her cosmetic glasses. "Truthfully, the answer may still be summarized as 'very little'. Before the recent attacks, we had no actionable intel, so this is not merely a problem of ignored intelligence."
-
-"To elaborate, while we have membership rolls and internal monitoring organizations, the detailed magical safeguards on our records have greatly lapsed since the days of the Unification Wars. Furthermore, our processes are not designed to prevent this kind of deception—it is possible to fake a death, for instance, particularly in the heat of combat, or to make use of unknown contractees on rogue colonies. We know such contractees exist, though not whether they've joined any conspiracies, from Incubator statements."
-
-She paused.
-
-"Ultimately, we have been too lax. The long peace since the Unification Wars convinced us we had no internal threats, even when new circumstances arose that provided novel contexts for escaping our controls. The overall problem is very difficult, but one we should have kept trying to solve."
-
-"As a technical matter, though, it must be noted that some of this is a consequence of former Governance leniency towards rogue colonies. Recent decades have proven that many escaped your and our monitoring, and X‐25 in particular demonstrates the potential for hostile development of magical girls."
-
-She made sure everyone caught the point, then continued:
-
-"All of this is a discussion of general security, however. To combat the specific threat of the known rogue organization, we are constituting a high‐level, heavily‐resourced task force—Monteagle—to investigate and dismantle this adversary. For an interstellar search, we are mostly reliant on Governance, but we have already found information of interest. We are tightening the security on our records, and on soul gems in transit—besides the TCF conspiracy, we believe Akemi Homura has been using this route for recruitment, with at least one example that we have already shared, that of Misa Virani."
-
-Kana omitted one potential angle: greater security for grief cube allocation. Besides being a sensitive topic inside the MSY itself, the position they had agreed on was that it was none of Governance's business. No need to bring it to their attention.
-
-"Beyond that," Kana said, "we will work in concert with Governance's own efforts on the matter, as always. But those efforts go both ways. We have already suggested administrative takeover of the remaining known rogue colonies, and more review of combat operation logs. But we understand that it is difficult to do better without impacting the war effort or other priorities."
-
-A bit of a bureaucratic defense, but not unreasonable, Kyouko thought. And as Kyouko had come to realize over the centuries, sometimes the bureaucracy was über alles.
-
-"A sensible, if defensive answer," Public Order remarked. "Contingent of course on adequate fulfillment. Governance has been very tolerant of your organization's independent decision‐making and refusal of our monitoring, but part of that has been a history of competence and results. We don't want to have to reassess."
-
-Kyouko traded a glance with Mami. Public Order's response had been sharp, reflecting longstanding disagreement over the MSY's de facto independence. Neither side wanted to force a confrontation over the matter, but Governance tended to speak publicly as if the MSY were a mere corporation, whose charter was subject to cancellation by the state.
-
-The MSY didn't share that view, of course, but they usually found it prudent to let such comments slide.
-
-Public Order looked to the assembled Representatives for further commentary. Colonial Affairs and Military Affairs provided some additional details of their efforts, but nothing really worth noting.
-
-"Then let's move on to our final topic," Public Order said. "How does the MSY leadership care to explain their recent use of religious artifacts to inform their decision‐making?"
-
-For the others, the least pleasant of questions. Kyouko—well, _she_ had been looking forward to this.
-
-It was difficult to resist the temptation to be snide, but she let Yuma speak for them, as planned. Yuma's statement would be short; the question‐and‐answer session would dominate.
-
-"Our official statements on this are quite clear," Yuma said. "Every source of information is worth investigating as long as we do it on our own terms. No new leadership has joined the Cult. We are not taking benevolence from the Ribbon or anyone acting through it for granted."
-
-Even Governance had been courteous enough to refer to the Church by its proper name, but the rhetorical distance would be useful for Yuma and Mami. Kyouko would wait her turn to speak.
-
-Normally, the theology was clear: mundane humans had their own world to live in, and it was best to leave them to it. But not in this case. Here, the Goddess seemed to want more than that, and Kyouko was happy to serve.
-
-"Your sober public statements are appreciated," Public Order said. "But we are concerned about the effect all this may have on your decision‐making, and that you may be overrating the, for lack of a better word, divinity of this source. You have experimental evidence demonstrating some credibility, but we are both aware that a small amount of veritably true information is insufficient to demonstrate trustworthiness _or_ benevolence. Merely human magical girls perform miracles all the time. Yet we know of at least some resourcing decisions that were made on this fragile basis."
-
-The statement was obviously directed at Mami in particular.
-
-"Tomoe Mami's decision to reexamine the potential for alien diplomacy was sufficiently justified by the information from the asteroid," Military Affairs commented, before she could answer.
-
-"Yet her motivations were not fully discussed," Public Opinion replied. "That is a breach of confidence, if nothing else. In addition, her decision to send a second probe to X‐25 was based purely on input ultimately stemming from the Ribbon artifact."
-
-"Which is information she has voluntarily shared with us now," Military Affairs said. "Not to mention that the outcome there was unquestionably positive."
-
-"That is not the point," _Governance: Culture and Ideology_ said. "Governance is not to operate according to private religious belief."
-
-Kyouko resisted rolling her eyes. In this matter, it was really Governance whose reasoning was suspect—they had always been biased against religion, as a source of authority and legitimacy they couldn't fully control.
-
-"We are not acting on blind faith," Yuma said, "nor would I expect Governance to rush to judgment as rapidly as the media or the public. In my life I have seen many extraordinary things, particularly when magic is involved. Getting comfortable in a set of methods, dismissing the new—I have been on both sides of that particular mistake. If I wanted to stay static, I might as well retire and let the next generation have their turn."
-
-Kyouko concealed a measure of surprise. Yuma hadn't used that argument in their preparations, nor was it one Kyouko had heard her use before.
-
-She watched Yuma and Public Order exchange looks for a long moment. Once, they had worked closely together. Sometimes that mattered.
-
-"It is indeed the case that stagnation breeds decay," Public Order said at length, gesturing at the trappings of imperial grandeur around them. "The ossification of the state, the dull repetition of procedure and ceremony—we have sought our whole existence to avoid such flaws. At the same time, both we and the MSY are aware of the risks of overestimating one's own judgment. Trust, but verify. So we will ask the MSY for real‐time reports on what the artifact is claiming to your leadership, and any adjustments to decision‐making that result. And I feel I must ask directly: do you, like the Church of Hope, believe that there is a deity providing benevolent advice through the Ribbon?"
-
-Yuma didn't answer immediately. To be honest, Kyouko was pleased Public Order had pressed the issue—she, too, wanted to hear Yuma's answer.
-
-"I don't know about a 'deity'," Yuma said, at length, "but someone powerful, yes. The Cult's own doctrine says their goddess was once a human, a girl who made a wish for the sake of all magical girls. That's how I intend to treat her: a girl with an unusual wish, who may be willing and able to help us."
-
-If it weren't for the fact that it'd be terrible for Yuma's political position, Kyouko would have wrapped her up in a hug right that moment.
-
-Public Order looked to Mami.
-
-"I share Chitose's opinion," Mami said. "And I would add that I am willing to accept help, when appropriate, but have no intention of subordinating myself or any of my responsibilities to such a being. You'll find nothing in my actions that contradicts that."
-
-This was shaping up to be the best meeting Kyouko had been dragged into in years.
-
-Public Order then looked to her.
-
-"They do not share my religious inclinations," Kyouko said, shrugging. "And require hard evidence rather than faith. Which, incidentally, we have more of."
-
-There was a stir along the circle of Representatives. This hadn't been in the agenda.
-
-There had been two ways to produce additional, substantive evidence for Governance. First, they could have agreed to Kyubey's offer to verify Ryouko's survival. Not only would that show the Incubators themselves were taking the Ribbon seriously, it would prove the Ribbon was capable of producing valuable intelligence for the war.
-
-They had turned Kyubey down, though. Whatever Homura was up to, they trusted her enough not to sell her out to the Incubators.
-
-Besides, they had an even stronger card to play.
-
-She looked around, making sure she had everyone's attention.
-
-"As Yuma implied, information is information, and there's other information to be had here. For instance, it may interest those assembled here that the Version Two TacComps inside Shizuki Ryouko and Tomoe Mami, Clarisse and Machina respectively, have _both_ been involved in these encounters with the Ribbon. Rumors about Clarisse are widespread in the AI community since the TCF leaks, but she is unfortunately not with us. Machina, however, _is_, and is prepared to attest to everything that has been said."
-
-The allegedly unprejudiced Directorate viewed the observations of magical girls as human and fallible, but they would have more trouble contesting a fellow AI, even a squishy one.
-
-She turned to look at Mami, who nodded and stepped back, ceding space to a new visitor.
-
-When Machina appeared in the Plenary Chamber then, she was more diminutive even than Yuma, and gave Kyouko a sudden urge to ruffle her hair.
-
-"Yes, it's all true," Machina said, without waiting for the spoken question. "I've seen the Goddess and heard the things she's told Tomoe Mami. Clarisse even says that she was told that AIs have souls, and there are other AIs who can testify to that. We've just been waiting for the chance to tell someone, and be taken seriously."
-
-Machina's eyes were wide, and when they met the gazes of the members of the Directorate, Kyouko knew there was much more being said than simple human speech.
-
-"I can confirm that my sub‐Representative _Governance: Church of Hope_ was told directly by Clarisse what Machina reports," MG said aloud. "Also, she and several other AIs have apparently joined the Church of Hope proper, which has just loosened its membership criteria."
-
-"That gives us a good deal of pause," Public Order said. "We will go into recess and consider the matter."
-
-With that, the assembled ministers bowed their heads and vanished.
-
-* * *
-
-It was a testament to Cephalopod bureaucratic efficiency that Ryouko received an updated diplomatic itinerary only thirty hours after her meeting with the Administrators.
-
-After much consideration, /Ahimsa‐extending had decided to invite representatives of trustworthy Tentacles to a covert diplomatic summit, where they would all be given a chance to take a look at Ryouko for themselves. The list of Tentacles was short but, given the context, intimidating.
-
-There was Consensus/Truth‐seeking, dedicated to pondering philosophy and the ins and outs of sapient existence—Ryouko was told they were very eager to meet her, as she could help resolve numerous questions about the nature and necessity of pref‐specs. There was Consensus/Comprehending, dedicated to gathering vast reams of knowledge about the material world, and happy to add a sapient species to their databanks. There was Consensus/Star‐faring, dedicated to personally traversing and experiencing the universe, and experts at ship‐building—as such, they even had ties to the faction prosecuting the war against humanity, /Thinker‐preserving.
-
-The list went on, including not just /Ahimsa‐extending's close allies but more distant factions, those which pref‐spec modeling indicated would be sympathetic to Ryouko's plight and /Ahmisa‐extending's arguments.
-
-The meeting would be held on relatively neutral ground, Singularity Station Five, a research station on the edge of /Ahimsa‐extending space, jointly run by /Star‐faring and /Comprehending, and a moderately popular tourist destination. It had served as a diplomatic venue before.
-
-So just an hour after Ryouko received the initial message, the drones packed up her bags and she made her way to Lush‐Botanist's new body, disguised as a civilian transport vessel. With her was most of the crew of the original vessel, reprising their roles. Survival‐Optimizer would join them as well, but would be traveling by transmission.
-
-Feathered‐Defender greeted her at the airlock, head now covered with new, half‐grown crimson feathers festooned with some kind of blue seaweed. She decided to save the questions about that for later.
-
-Relative to the trip she had just undergone, this trip was short, giving Ryouko only just over a day to prepare for the meeting and visit _this_ ship's oasis. This oasis was much larger, but had been made gloomy and perpetually damp. Most of the room featured a slow‐moving slush of debris a centimeter deep, though the area near the entrance was dry, with a few large rocks for easy seating. The turbid water was populated throughout by glowing green fungal bodies, whose stems grew cup‐like protrusions that filled with water from the humid air and occasional rain. Numerous species of insects flitted among them, moth‐like creatures that danced among the cups, alighting briefly on the water, then darting away as Feathered‐Defender languidly chased them.
-
-Ryouko sat on a clean rock at the edge, reflecting. The planet this had come from was already dead.
-
-* * *
-
-Ryouko felt Singularity Station Five well in advance of their arrival, from the work she had to do to suppress her soul gem's glow. First came the accretion disk, pelting the ship vigorously as they tightened their orbits around the dark star. They approached the inner orbits shallowly, cautious and gradually, even the alien shielding and engines paying respect to the hazards around them, until they finally aligned with the outer, habitation module, flat and elongated in the direction of its orbit.
-
-As she stepped across the threshold between ship and station, Ryouko mused that it was hard not to be impressed by alien shielding. The bubble sealed out the worst of the tidal forces, shear, and relativistic effects, well enough that the station could even host diplomatic meetings. In a way, that was magic too.
-
-Still, she couldn't say she much enjoyed the interior environment. Looking around, she was back within the utilitarian alien style she was used to from combat missions, nothing but holographically‐enhanced bulkheads and sand‐textured floors. There was none of the sky, plants, or animals that had been at Far Sanctuary. She surprised herself with how much she missed it.
-
-_Boring place, yes,_ Feathered‐Defender thought, reading her body language with startling accuracy. _I don't like boring stations._
-
-She hated to admit it, but she realized that the bird was right. For a bird, a black hole research station was a boring place.
-
-_Maybe we can find some scientists to talk to, if they'll talk to us,_ Ryouko thought. _Or I'll call up a display of the black hole for us to stare at._
-
-_Impressed at your smartness,_ the bird thought, tugging at the edge of her shirt with his beak. _Can't understand scientists._
-
-She was looking forward to taking some more time to prepare in her new room, but as she followed the station's telepathic navigation trail, she learned that Survival‐Optimizer was waiting for her there.
-
-Feathered‐Defender waddled to his plush cubby in the corner of the room when they arrived, evidently well aware that she and the administrator had business.
-
-The alien waited until she had found a place to sit, its head nearly scraping the ceiling.
-
-_μ·We do not intend to deceive any of the visitors today—it is critical that the information presented drive toward an optimal outcome|ν?·Have you and Clarisse⊃? absorbed the instructions I sent you_
-
-They had. Even in this context, there was still politics. /Ahimsa‐extending wanted them to make promises of study and cooperation, emphasize the accidental nature of the Verson Two TacComps, and explain that the drafting of adolescent magical girls was a desperate, wartime measure. They should try to be reassuring about human intents regarding reality‐distortion, without underselling Ryouko's power, which might make others think them deceitful.
-
-_|ν·Good|ξ·We are aware that your extended presence in Thinker territory is a matter of much conflict within your pref‐spec, Ryouko⊃?—I thought it good to speak to you physically, considering my responsibility for your sojourn here_
-
-When the alien paused, Ryouko indicated with her gaze that she was still listening.
-
-_μ?·Have you and Clarisse⊃? chosen star‐names yet|μ+∈·Choosing star‐names will make you less alien|μ+∈·There is no need to spend too much effort, as such names may always be modified later—I myself went through several names within a century, once_
-
-They had chosen names, actually. They had talked about it with each other. It seemed straightforward to pick out the most salient parts of their preferences, but all who picked a star‐name could choose what they wanted to emphasize. In this situation, diplomatically, it mattered for Ryouko to pick something that would get her point across the fastest—and for Clarisse to do the same.
-
-_|μ+∈·Ryouko⊃Humanity‐preserving|μ+∈·Clarisse⊃Ryouko‐supporting_
-
-She wasn't sure how she felt about Clarisse's choice, which was a deliberate reminder to the aliens that, however they felt about the circumstances of Clarisse's creation, _she_ cared about being with Ryouko. Because the aliens couldn't read a pref‐spec for Clarisse like they could for Ryouko, it was an important point to make.
-
-She also wondered if Survival‐Optimizer would comment on the symmetry between the concepts of "Thinker‐preserving" and "Humanity‐preserving". It had been deliberate, after all.
-
-_μ·Thoughtworthy choices|ν·Remember that through interactions with others, your choice of name may come to reflect into you|ξ·There is one more matter_
-
-It paused again, waiting for her to acknowledge.
-
-_||ξ·I also wished to inform you that /Star‐faring has discreetly informed us that they believe /Thinker‐preserving knows you are in Andromeda_
-
-Ryouko's stomach instantly turned, her previously pleasant mood souring on the spot. How…?
-
-_μ·Your physiological response to bad news is as if you were physically injured—an unusual feature for your species' biodesigners to allow||ξ●·/Star‐faring has intelligence gathering that we do not, and they have not disclosed their sources—we do not know how /Thinker‐preserving learned of this_
-
-_μ?·Will we be safe here||ξ?·Did one of the invited Tentacles tell them_ Ryouko thought, before she had time to reconsider asking so loaded a question.
-
-_μ∈·The use of violence between Tentacles would be direct proof of pref‐spec compromise, and very unlikely‒6% to survive a cost‐benefit analysis|μ∈·We are devoting much computing power to predict /Thinker‐preserving's maneuvers, but if they are truly compromised, then our error margins are considerable|ξ⌄·It is possible‒14%|ξ⌃·Or you may have been discovered by followup analysis of scan data‒27% or other intelligence‒25%, or /Star‐faring may be wrong‒13% or lying‒2%, or some other possibility‒19%|ο·It would be unwise to make such accusations in the upcoming meeting_
-
-Ryouko wanted to be reassured, but couldn't find space for it in the alien's words.
-
-_I don't think Survival‐Optimizer is very confident either,_ Clarisse thought. _I suspect this is more uncertainty than they're used to in anything. They probably think they have it handled, but we_ know _we are not lying, and that something is seriously wrong with /Thinker‐preserving. We also know how much magic can damage systems like the TCF. Given that, I'd not sure I'd trust any models based on pref‐specs._
-
-_You're not making me feel better, Clarisse,_ Ryouko thought.
-
-_That's not my job in this case. You don't even need it._
-
-That was true, Ryouko realized. She had gotten so used to living with all these swords hanging over her head that one more hardly seemed to hurt. Was she growing numb, or was it a sign of maturity? She wasn't sure she wanted to know, either way.
-
-_|μ·Then we must be ready for the unforeseen; without the guidance of preferences, things—events, individuals, factions—can behave in truly unexpected ways|||_ Ryouko thought.
-
-She wasn't sure whether it was wise to critique her host, and Survival‐Optimizer didn't respond immediately, instead moving one tentacle in front of its mouth in a gesture Ryouko didn't recognize.
-
-_|μৡ__·To make ready is to foresee|||_
-
-It then made the gesture of farewell and retreated, ducking its head to make it through the rounded doorway.
-
-Ryouko stood up and walked over to her new squishy alien bed, patting Feathered‐Defender on his head as she passed.
-
-Swords hanging over her head—or perhaps an ocean to drown in.
-
-* * *
-
-What struck her the most about the Thinkers was the sheer diversity of phenotype. Survival‐Optimizer towered over most of the others, some of whom were not senior officials, others who had chosen to offload most of their processing to the station, and still others who defied easy description.
-
-/Star‐faring's representative was one of the smallest, eye‐level with Ryouko herself, with eerie silver pupils that scanned her at arrival. It was simply an organic avatar, she was informed, like Lush‐Botanist had used before, but even more spare.
-
-/Comprehending's representative was larger, but with a bulk that seemed to largely come from a metallic suit it wore, a dull grey color. The suit was studded with obvious sensors, which were applied on Ryouko very aggressively—though she was at least asked in advance, and was given a detailed description of the sensors used.
-
-/Truth‐seeking's representative was not an individual at all, but a physical avatar of a collective. Numerous trusted individuals across the Tentacle shared the conscious experience, and they all helped guide the body's replies—with the result that upon arrival Ryouko was blasted by a wave of dozens of threads, most of whom she handed off to Clarisse for delayed consideration.
-
-The dozen or so arrivals covered the whole spectrum between those examples, save for the two who preferred to stay entirely on the station's computer cores, donning holographic avatars. All were local, though; security required transmission silence, and everyone had backups at home.
-
-There was no pool of water here, no grand trees. Indeed, it was possible to squint and see the outlines of a rather human meeting room, complete with chairs and central table. Partially, that was a matter of resources, but it was also a matter of hitting the average of everyone's pref‐specs.
-
-Which did not mean it was a human meeting room. Other than Ryouko's customized chair, the seating was shaped strangely, and came in several varieties, the ground had the usual sand‐like texture, and the atmosphere was very humid. The room was also positively festooned with grasping poles, two for every chair.
-
-Shell‐shaped plates next to every seat served the concoction of seaweed and algae‐beads that Ryouko had grown a quiet distaste for. Apparently, in most diplomatic meetings it would have been tiny fishes—but /Ahimsa‐extending refused to endorse that carnivorism.
-
-Once the last representative arrived—about 10 minutes late, predictable from their pref‐spec—the meeting began in earnest, opening with a small ceremony where Survival‐Optimizer moved to the front of the table and made /Ahimsa‐extending's gesture of cooperation, a single tentacle curling over the face, while the rest of the table made _theirs_, leading to a physical cacophony of tentacle‐gestures. Ryouko, who had been told she should participate, waved meekly.
-
-It was, in all, surreal.
-
-They picked up the dishes and took a ceremonial bite, and then Survival‐Optimizer opened the meeting:
-
-_μ·By now you have all been informed of the information /Star‐faring has obtained|ν∪·By now you have all had your chance to empathize‐open with and make inquiry of the Human reality‐warper, Shizuki Ryouko⊃Humanity‐preserving, and her companion, Clarisse⊃Ryouko‐supporting|μ+·/Thinker‐preserving is no doubt assembling allies to call upon at Consensus as well|ν∪+·You will have all seen that she is trustworthy, and if you wish you may further verify her claims with her yourself after this session|ξ∈·By now you have all seen the modeling we have performed, and the analyses we have laid out for you to grab|ξ∈·/Ahimsa‐extending considers it likely—87.3‒89.1%—that her claims are centrally true|ο!·Our purpose is to prevail upon Consensus to revoke /Thinker‐preserving's monopoly on the security operation—we ask for your support_
-
-Security operation, Ryouko repeated to herself. Well, she could hardly be offended at this point.
-
-Ryouko braced herself for the avalanche of overlapping conversations.
-
-/Comprehending's representative wHwoqE⊃Far‐Observer caught her attention first, a mechanical knob extending towards Ryouko, which she realized was a gesture with one of its sensor arrays.
-
-_|ν∪·The time we have been given is hardly adequate for study||ν∪·You know we would have preferred study time before this|ξ∈·Your models are compelling, and you have been trustworthy in the past, but we believe you underrate the likelihood of deceitful measures|ξ∈·Our preliminary estimate‒85% is not much lower|ο·Assuming the validity of your conclusions, we agree that is the necessary approach_
-
-The telepathic clamor flowed through Ryouko's mind, and while she was incapable of following all of it, she _had_ gotten better at acting as a receiver, letting Clarisse store what she could away for further processing. She paid attention for direct questions and references to her, trying to catch the gist of what was being discussed.
-
-It was not very different from the meeting inside /Ahimsa‐extending itself, though less friendly, both towards her and each other. There were expressions of incredulity at human practices and /Thinker‐preserving's apparent behavior, worry about future dangers, speculative side‐questions—it was perhaps most interesting to focus on how the factions viewed the situation, and humans themselves, which spared Ryouko at least the effort of modeling all the relevant pref‐specs.
-
-/Truth‐seeking was friendly, commenting more than once on the inevitability of misunderstandings between sapient races and the importance of keeping examples of other forms of sapient life alive to share their perspective on existence. Its body shimmered in displays of different colors as it shifted back and forth between individuals, though Ryouko had to confess that she wasn't making the effort to keep track of which was which.
-
-/Comprehending was hard to read, and seemed to be more interested in Human society as a research subject—but they enjoyed /Ahimsa‐extending's confidence, and their pref‐spec claimed they were very diligent about taking care of their research subjects.
-
-They also wanted to experiment to see if Humanity might be weaned off its "dependence" on reality‐warping, a prospect Ryouko didn't want to think about.
-
-Others seemed more eager to unlock the Milky Way for exploration, expressing optimism that Humanity could perhaps help in that endeavor. One faction was eager to explore trade opportunities. Another mused on whether, once /Thinker‐preserving was reeled in, Humanity might consent to integrating into Consensus, perhaps as its own Tentacle, or perhaps merging into existing ones.
-
-The implications of some of these positions were unsettling, but at least none seemed malignant. One consistent trend was that while all expressed concern about the dangers of reality‐warping and at times chided /Ahimsa‐extending's supposed carelessness, none seemed to favor extreme measures, and all were willing to at least negotiate with Humanity.
-
-Clarisse was able to explain why: based on parts of the conversation Ryouko hadn't directly followed, /Ahimsa‐extending was at the center of the ball of tentacles that had disapproved of /Thinker‐preserving's proposal for a demonstration of force, and were responsible for some of the stringent conditions that they were _supposed_ to be following. This was as favorable an audience as they were ever going to get.
-
-Then Ryouko's attention caught on a line of dialogue begun by /Star‐faring's representative, silver eyes turning this way and that:
-
-_μ·We have heard what /Thinker‐preserving has to say on that matter to their allies|μ+·Of Humanity, they focus on the reality‐warping, the refusal to negotiate, the duplicity, all of what we have heard before, which does not correspond with the Human's testimony here|μ+·Of Humanity‐preserving, they equate her to a hostile Human warfleet, and warn of her power for forced‐pref‐spec‐alteration—but we agree here that our safeguards strongly suggest no such power was used to convince us of her peaceful intentions, which sinks the opposing argument ≈ a ship dashed upon the rocks|ν·Perhaps we should ask Humanity‐preserving to speak with /Thinker‐preserving's allies, rather than start with neutral Tentacles—if we can turn their allies, neutral Tentacles will imitate_
-
-Survival‐Optimizer replied:
-
-_|μ+·There are other scenarios that their allies will consider plausible; we have modeled their thoughts thus|μ·Humanity‐preserving could be indoctrinated with lies, or had her pref‐spec temporarily softened by reality‐warping, or her reality‐warping technology could be beyond our detection, altering our perception|ν·They will demand we confine her, and submit her to neurological‐unlayering|ν□·To this she will not consent, so we will not consent_
-
-Far‐Observer replied, bulky frame leaning onto the table:
-
-_|μ·Such scenarios require substantially more evidence to believe than the directly‐apparent|ν·It will be easy to induce skepticism toward /Thinker‐preserving, at least—the attempt may profitably be made while refusing unreasonable demands|ν·An admirable respect for sapient integrity, that we wished /World‐shaping shared_
-
-It was true; Ryouko wasn't going to submit to any "neurological‐unlayering", which she assumed her pref‐spec made quite clear. But…
-
-_ν·Merely to communicate or meet with /Thinker‐preserving's allies, I would be willing, despite the danger_ she thought, picking the exact thread out of the air to reply to.
-
-Survival‐Optimizer thought:
-
-_ν·Then I see no reason not to attempt the gambit, though we will have to consult the models_
-
-A new avatar also spoke up, /Positive‐exchange's representative, a human‐sized Cephalopod hologram in a simple robe, almost ordinary‐looking compared to the others.
-
-_ν·Overrating the risk of personal injury is very understandable, given what has happened to your species and your lack of consciousness backups, but such violence in this context would be quite unlikely|ν?·Rather than nibbling around the edges with /Thinker‐preserving's allies, might not it be best to simply meet with /Thinker‐preserving themselves and clear up any misunderstandings at the heart_
-
-Survival‐Optimizer intervened before Ryouko could, emphasizing the potential effects of reality‐warping on /Thinker‐preserving's integrity. It couldn't be assumed they would behave predictably.
-
-It seemed presumptuous to privilege her own judgment above that of the Thinkers, but in this case she felt that Survival‐Optimizer had the right of it. Indeed, she was grateful that at least one faction appeared to understand the real risks involved.
-
-/Star‐faring's representative, meanwhile, had continued on the previous threads:
-
-_||μ·Of the dire warnings produced by both sides, the possibility of /Thinker‐preserving's corruption is the worse—the internal threat is greater than the external|ν·We here, united, represent only a small fraction of Tentacles; many more will need to be persuaded|ν?·Would you and Ryouko‐supporting consent to physical travel under our protection_
-
-The last thread was directed specifically to her, and she found the decision surprisingly easy.
-
-_|||ν·Yes_
-
-She was already committed to making allies among the Thinkers. She couldn't trust them fully, but then again, they couldn't trust her fully either. Working together would help fix that.
-
-Survival‐Optimizer added:
-
-_|||ν·But for her safety, and for our own consciences, we must begin studying the matter of Human consciousness uploading_
-
-Far‐Observer replied:
-
-_|||ν·Then perhaps /Somatic‐diversity, an outer ally of /Thinker‐preserving, will be the best to approach first_
-
-Logistics began to be discussed, some of the Thinkers beginning to dig through the rest of their snack dishes, and Ryouko leaned back in her seat, pulling up records of yet another Tentacle, in this case turning up visions of Thinkers with wings, extra eyes, and other strange, menacing forms.
-
-_What have I gotten myself into?_
+|||_待更新_

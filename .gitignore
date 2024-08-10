@@ -4,6 +4,7 @@
 # Production
 /build
 dist/
+.pnpm-store/
 
 # Generated files
 .docusaurus

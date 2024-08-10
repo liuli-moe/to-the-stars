@@ -2,7 +2,7 @@
   "name": "to-the-stars",
   "private": true,
   "type": "module",
-  "version": "1.7.3",
+  "version": "1.7.4",
   "scripts": {
     "build": "mark-magic && jszip-cli add dist/epub -o dist/books.zip -f",
     "build-docs": "mark-magic --task docs",

@@ -94,11 +94,7 @@ jobs:
           body: |
             Release epub for version ${{ steps.bump_version.outputs.new_version }}
           files: |
-            ./dist/epub/第一卷-量子纠缠.epub
-            ./dist/epub/第二卷-宇宙膨胀.epub
-            ./dist/epub/第三卷-存在悖论.epub
-            ./dist/epub/第四卷-爱因斯坦-罗森桥.epub
-            ./dist/epub/番外.epub
+            ./dist/books.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

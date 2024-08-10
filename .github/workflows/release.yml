@@ -86,15 +86,21 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: Upload Release Asset
-        uses: actions/upload-release-asset@v1
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.bump_version.outputs.new_version }}
+          name: Release ${{ steps.bump_version.outputs.new_version }}
+          body: |
+            Release epub for version ${{ steps.bump_version.outputs.new_version }}
+          files: |
+            ./dist/epub/第一卷-量子纠缠.epub
+            ./dist/epub/第二卷-宇宙膨胀.epub
+            ./dist/epub/第三卷-存在悖论.epub
+            ./dist/epub/第四卷-爱因斯坦-罗森桥.epub
+            ./dist/epub/番外.epub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./dist/epub/*.epub
-          asset_name: ebook.epub
-          asset_content_type: application/epub+zip
 
   # deploy:
   #   environment:

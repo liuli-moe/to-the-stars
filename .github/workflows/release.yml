@@ -2,7 +2,7 @@ name: Build, Release, and Deploy
 
 on:
   push:
-    branches: [main, ci-test]
+    branches: [main]
   workflow_dispatch:
 
 permissions:

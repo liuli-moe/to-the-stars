@@ -58,10 +58,23 @@ jobs:
       - name: Bump version
         id: bump_version
         run: |
+          # 获取最新的 tag
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "v0.0.0")
+          
+          # 提取版本号并增加 patch 版本
+          CURRENT_VERSION=${LATEST_TAG#v}
+          IFS='.' read -ra VERSION_PARTS <<< "$CURRENT_VERSION"
+          MAJOR=${VERSION_PARTS[0]}
+          MINOR=${VERSION_PARTS[1]}
+          PATCH=$((VERSION_PARTS[2] + 1))
+          
+          NEW_VERSION="v$MAJOR.$MINOR.$PATCH"
+          
           git add .
           git commit -m "Build for release" || echo "No changes to commit"
-          npm version patch -m "Bump version to %s"
-          echo "new_version=$(node -p "require('./package.json').version")" >> $GITHUB_OUTPUT
+          git tag -a $NEW_VERSION -m "Bump version to $NEW_VERSION"
+          
+          echo "new_version=${NEW_VERSION#v}" >> $GITHUB_OUTPUT
         env:
           GIT_AUTHOR_NAME: github-actions[bot]
           GIT_AUTHOR_EMAIL: github-actions[bot]@users.noreply.github.com

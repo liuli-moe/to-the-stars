@@ -38,7 +38,9 @@ jobs:
         run: pnpm i --frozen-lockfile
 
       - name: Build
-        run: pnpm build
+        run: |
+          pnpm build
+          ls -l dist/epub
 
       # - name: Setup Pages
       #   uses: actions/configure-pages@v3
@@ -93,12 +95,6 @@ jobs:
           asset_path: ./dist/epub/*.epub
           asset_name: ebook.epub
           asset_content_type: application/epub+zip
-
-      - name: Push changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git push --follow-tags
 
   # deploy:
   #   environment:

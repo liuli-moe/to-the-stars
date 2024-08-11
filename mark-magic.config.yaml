@@ -1,5 +1,3 @@
-# yaml-language-server: $schema=./node_modules/@mark-magic/cli/dist/config.schema.json
-
 tasks:
   - name: docs
     input:
@@ -7,7 +5,7 @@ tasks:
       config:
         path: ./books
         ignore:
-          - "**/draft-*.md"
+          - '**/draft-*.md'
     output:
       name: '@mark-magic/plugin-docs'
       config:
@@ -49,6 +47,9 @@ tasks:
           copyright: 'Copyright © 2023 Hieronym, Inc. Built with feed.'
           ignore:
             - '**/99/**'
+        twitter:
+          site: 'rxliuli'
+          image: 'https://tts.liuli.moe/cover.png'
   - name: 第一卷-量子纠缠
     input:
       name: '@mark-magic/plugin-local'

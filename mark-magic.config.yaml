@@ -50,6 +50,8 @@ tasks:
         twitter:
           site: 'rxliuli'
           image: 'https://tts.liuli.moe/cover.png'
+        search:
+          enabled: true
   - name: 第一卷-量子纠缠
     input:
       name: '@mark-magic/plugin-local'

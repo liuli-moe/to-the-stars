@@ -7,15 +7,16 @@
     "build": "mark-magic && jszip-cli add dist/epub -o dist/books.zip -f",
     "build-docs": "mark-magic --task docs",
     "deploy": "gh-pages -d ./dist/docs --dotfiles",
-    "preview": "live-server dist/docs"
+    "preview": "mark-magic --task docs && live-server dist/docs"
   },
   "devDependencies": {
-    "@ffflorian/jszip-cli": "^3.6.5",
-    "@mark-magic/cli": "^0.14.1",
-    "@mark-magic/plugin-docs": "^0.15.0",
+    "@ffflorian/jszip-cli": "^3.7.3",
+    "@mark-magic/cli": "^0.14.2",
+    "@mark-magic/plugin-docs": "^0.17.0",
     "@mark-magic/plugin-epub": "^0.13.0",
     "@mark-magic/plugin-local": "^0.14.0",
-    "gh-pages": "^6.1.1",
-    "live-server": "^1.2.2"
+    "gh-pages": "^6.2.0",
+    "live-server": "^1.2.2",
+    "pagefind": "^1.2.0"
   }
 }

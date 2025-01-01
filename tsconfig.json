@@ -12,5 +12,5 @@
     "declaration": true,
     "declarationMap": true
   },
-  "include": ["src"]
+  "include": ["src", "books/.vitepress/config.ts"]
 }

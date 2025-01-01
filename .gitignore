@@ -5,6 +5,8 @@
 /build
 dist/
 .pnpm-store/
+**/.vitepress/cache
+**/.vitepress/dist
 
 # Generated files
 .docusaurus
@@ -20,3 +22,4 @@ dist/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+

@@ -11,11 +11,11 @@
 ## 项目简介
 
 > 原作 wiki: <https://tts.determinismsucks.net/wiki/Main_Page>
+> 本站章节已对齐原作，下述章节序号均为原作
 
 该项目主要是将目前几位作者的翻译打包为 epub 以便在手机和电子阅读器上阅读，同时避免国内网站删除、下架或不再维护网站而创建存档，目前也支持在线阅读，查看链接：<https://tts.liuli.moe/>。你也可以通过 rss 订阅最新的章节，链接：<https://tts.liuli.moe/rss.xml>。
 
 来自多位作者接力翻译
-
-- [LidaRyen](https://bbs.yamibo.com/forum.php?mod=viewthread&tid=206113&extra=&authorid=61676): 翻译了第 1、2 卷全部和第 3 卷截至 53 章的部分
+- [LidaRyen](https://bbs.yamibo.com/forum.php?mod=viewthread&tid=206113&extra=&authorid=61676): 翻译了第 1、2 卷全部和第 3 卷截至 45 章的部分
 - [风若兮未](https://space.bilibili.com/47184018): 将上面的翻译搬运至 b 站，避免了百合会改版之后由于最长 1w 字而且删除文章格式导致的一些错误（另外，b 站也有和谐）
-- [baccano999](https://space.bilibili.com/11781867): 翻译了第 3 卷的后半部分。看起来是从第三卷第 54 章开始，翻译质量与之前相比劣化很多，存在大量事物名称不一致及其他各种问题，非常需要重新校对一遍。
+- [baccano999](https://space.bilibili.com/11781867): 翻译了第 3 卷的后半部分。看起来是从第三卷第 45 章开始，翻译质量与之前相比劣化很多，存在大量事物名称不一致及其他各种问题，非常需要重新校对一遍。

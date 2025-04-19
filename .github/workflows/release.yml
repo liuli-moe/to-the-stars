@@ -25,13 +25,11 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9.6.0
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: pnpm
 
       - name: Install dependencies
@@ -83,17 +81,6 @@ jobs:
 
       - name: Push changes
         run: git push --follow-tags
-
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: v${{ steps.bump_version.outputs.new_version }}
-          release_name: Release ${{ steps.bump_version.outputs.new_version }}
-          draft: false
-          prerelease: false
 
       - name: Create Release and Upload Assets
         uses: softprops/action-gh-release@v2

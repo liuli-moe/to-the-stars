@@ -59,7 +59,7 @@ const html = await http.get(downloadLink, { headers: { accept: 'text/html', refe
 echo('Converting HTML to plain text')
 const text = convert(html, {
   baseElements: { selectors: ['h1', '.byline', '.userstuff'], orderBy: 'occurrence' },
-  wordwrap: 100,
+  wordwrap: false,
   selectors: [
     { selector: 'a', options: { ignoreHref: true } },
     { selector: 'img', format: 'skip' },

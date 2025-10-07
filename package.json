@@ -8,7 +8,8 @@
     "build-docs": "mark-magic --task docs",
     "deploy": "gh-pages -d ./dist/docs --dotfiles",
     "preview": "mark-magic --task docs && live-server dist/docs",
-    "dev": "vitepress dev books"
+    "dev": "vitepress dev books",
+    "update:source": "node scripts/update-source.mjs"
   },
   "devDependencies": {
     "@ffflorian/jszip-cli": "^3.7.3",
@@ -18,14 +19,20 @@
     "@mark-magic/plugin-local": "^0.19.0",
     "@rxliuli/markdown-it-task-lists": "^2.1.5",
     "@types/markdown-it-footnote": "^3.0.4",
+    "domutils": "^3.2.2",
     "gh-pages": "^6.2.0",
+    "got": "^14.4.9",
+    "html-to-text": "^9.0.5",
+    "htmlparser2": "^8.0.2",
     "live-server": "^1.2.2",
     "markdown-it-cjk-space-clean": "^0.2.0",
     "markdown-it-footnote": "^4.0.0",
     "pagefind": "^1.2.0",
+    "tough-cookie": "^6.0.0",
     "vitepress": "^1.5.0",
     "vitepress-plugin-pagefind": "^0.4.12",
-    "vitepress-sidebar": "^1.30.2"
+    "vitepress-sidebar": "^1.30.2",
+    "zx": "^8.8.4"
   },
   "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
 }

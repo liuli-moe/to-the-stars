@@ -91,7 +91,7 @@ def extract_title(html_content):
         
         # 提取a标签中的内容（如"Chapter 1"）
         a_tag = title_h3.find('a')
-        chapter_part = a_tag.get_text(strip=True) if a_tag else ""
+        chapter_num = a_tag.get_text(strip=True) if a_tag else ""
         
         # 提取h3标签中除了a标签以外的所有文本内容
         h3_copy = BeautifulSoup(str(title_h3), 'html.parser').find('h3', class_='title')
@@ -102,25 +102,16 @@ def extract_title(html_content):
                 a_tag_copy.extract()
         
         # 获取剩余文本
-        rest_text = h3_copy.get_text(strip=True)
+        chapter_name = h3_copy.get_text(strip=True)
         
         # 清理文本：移除开头的冒号和空格
-        rest_text = re.sub(r'^:\s*', '', rest_text)
+        chapter_name = re.sub(r'^:\s*', '', chapter_name)
         
         # 将半角冒号替换为全角冒号
-        rest_text = rest_text.replace(": ", "：")
-        
-        # 组合标题
-        if chapter_part and rest_text:
-            title = f"{chapter_part}-{rest_text}"
-        elif chapter_part:
-            title = chapter_part
-        elif rest_text:
-            title = rest_text
-        else:
-            title = "未知标题"
+        chapter_name = chapter_name.replace(": ", "：")
+
             
-        return title
+        return chapter_num,chapter_name
         
     except Exception as e:
         print(f"  提取标题失败: {e}")
@@ -149,6 +140,7 @@ def html_to_markdown(html_content):
         
         # 删除HTML中的sup标签可能的换行，注意不同系统正则表达式可能不同
         soup = re.sub('[\s\n]+<sup>','<sup>',html_content)
+        soup = soup.replace('<h3 class="landmark heading" id="work">Chapter Text</h3>','')
         # 保护sup标签
         soup = soup.replace('<sup>','sup-start')
         soup = soup.replace('</sup>','sup-end')
@@ -198,7 +190,8 @@ def download_chapter_markdown(chapter_id, chapter_number, output_dir):
         
         # 提取标题
         print("  提取标题...")
-        title = extract_title(html_content)
+        chapter_num,chappter_name = extract_title(html_content)
+        title = f'{chapter_num}-{chappter_name}'
         safe_title = sanitize_filename(title)
         print(f"  章节标题: '{title}'")
         
@@ -221,8 +214,7 @@ def download_chapter_markdown(chapter_id, chapter_number, output_dir):
         # 写入文件
         print(f"  保存文件: {filename}")
         with open(filepath, 'w', encoding='utf-8',newline='\n') as f:
-            f.write(f"# {title}\n\n")
-            f.write("---\n\n")
+            f.write(f"# {chapter_num}: {chappter_name}\n\n")
             f.write(markdown_content)
         
         print(f"  ✓ 成功保存: {filename}")

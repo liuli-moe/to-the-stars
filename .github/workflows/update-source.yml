@@ -1,0 +1,48 @@
+name: Update Source and Commit
+
+on:
+  schedule:
+    - cron: "30 16 * * *" # https://crontab.guru/#30_16_*_*_*
+  workflow_dispatch: {}
+
+jobs:
+  update-source:
+    name: Update Source
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          filter: 'blob:none'
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Update source if necessary
+        run: pnpm run update:source
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@46cdba753c74545733b821043d64bd6925fc4da9
+        with:
+          add-paths: scripts/source.txt
+          branch: update-source/patch
+          delete-branch: true
+          sign-commits: true
+          commit-message: 更新原文内容
+          title: 更新原文内容
+          body: |
+            此 PR 由 GitHub Actions 自动创建
+          labels: automated

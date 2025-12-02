@@ -13,8 +13,15 @@ const LOCAL_FILE = 'scripts/source.txt'
 const cookieJar = new CookieJar()
 const http = got.extend({
   cookieJar, // Remember Cloudflare cookies
-  retry: { limit: 3 },
-  timeout: { request: 30_000 },
+  http2: true,
+  retry: {
+    limit: 10,
+    // Retry on 525 (Cloudflare SSL handshake failed) in addition to the default list.
+    // Shouldn't happen intermittently, but somehow it did.
+    statusCodes: [408, 413, 429, 500, 502, 503, 504, 521, 522, 524, 525],
+    backoffLimit: 15_000,
+  },
+  timeout: { request: 300_000 },
   headers: { 'accept-language': 'en-US,en;q=0.7' },
 })
 
@@ -42,7 +49,10 @@ const localLastUpdated = new Date(+localLastUpdatedStr * 1000)
 echo('Local version was updated at', localLastUpdated.toISOString())
 
 echo('Fetching work page for last updated time')
+console.time('Fetched');
 const downloadLink = await getDownloadLink(WORK_URL)
+console.timeEnd('Fetched');
+
 const updatedAtParam = downloadLink.searchParams.get('updated_at')
 if (!updatedAtParam?.match(/^\d+$/)) throw `Missing 'updated_at' in download url: ${downloadLink}`
 const remoteLastUpdated = new Date(+updatedAtParam * 1000)
@@ -54,7 +64,9 @@ if (localLastUpdated >= remoteLastUpdated) {
 }
 
 echo('Downloading full HTML from remote')
+console.time('Downloaded');
 const html = await http.get(downloadLink, { headers: { accept: 'text/html', referer: WORK_URL } }).text()
+console.timeEnd('Downloaded');
 
 echo('Converting HTML to plain text')
 const text = convert(html, {

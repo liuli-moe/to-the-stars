@@ -21,7 +21,7 @@
     "@types/markdown-it-footnote": "^3.0.4",
     "domutils": "^3.2.2",
     "gh-pages": "^6.2.0",
-    "got": "^14.4.9",
+    "got": "^14.6.4",
     "html-to-text": "^9.0.5",
     "htmlparser2": "^8.0.2",
     "live-server": "^1.2.2",
